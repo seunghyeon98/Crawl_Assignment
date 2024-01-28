@@ -1,7 +1,7 @@
 
 import deepl
 import os
-import apikey
+import env.apikey as apikey
 
 # 영어로 기계번역할 deepl 번역함수
 def translater(text:str) -> str:
