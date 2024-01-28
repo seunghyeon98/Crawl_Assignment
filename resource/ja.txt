@@ -1,0 +1,1632 @@
+Rustプログラミング言語
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Rust
+効率的で信頼できるソフトウェアを  誰もがつくれる言語
+はじめる
+バージョン 1.75.0
+なぜRustか？
+パフォーマンス
+Rustは非常に高速でメモリ効率が高くランタイムやガベージコレクタがないため、パフォーマンス重視のサービスを実装できますし、組込み機器上で実行したり他の言語との調和も簡単にできます。
+信頼性
+Rustの豊かな型システムと所有権モデルによりメモリ安全性とスレッド安全性が保証されます。さらに様々な種類のバグをコンパイル時に排除することが可能です。
+生産性
+Rustには優れたドキュメント、有用なエラーメッセージを備えた使いやすいコンパイラ、および統合されたパッケージマネージャとビルドツール、多数のエディタに対応するスマートな自動補完と型検査機能、自動フォーマッタといった一流のツール群が数多く揃っています。
+Rustでつくろう
+2018年、Rustコミュニティは、いくつかの異なる領域におけるプログラミング体験を改善していくと決めました（ 2018年のロードマップをご覧ください）。これらについて、たくさんの高品質なクレートやいくつかの素晴らしい入門ガイドが見つかります。
+コマンドライン
+Rustの強力なエコシステムならCLIツールを素早く作れます。Rustはアプリのメンテナンスを信頼できるものにし、その配布も簡単です。
+ツールを作る
+WebAssembly
+Rustを使ってJavaScriptをモジュール単位で高速化しましょう。npmに公開しwebpackでバンドルすればすぐに使えます。
+webアプリケーションを書く
+ネットワーク
+予測可能なパフォーマンス。極小のリソースフットプリント。堅固な信頼性。Rustはネットワークサービスにぴったりです。
+サーバーを動かす
+組込み
+低リソースのデバイスがターゲットですか？
+高レベルの利便性を損なわずに低レベルの制御をしたいですか？
+Rustにお任せください。
+組込から始める
+Rustの活用事例
+既に、世界中の数百という企業がRustを採用し、高速で低リソースのクロスプラットフォームソリューションを実現しています。皆さんがご存じで愛用しているソフトウェア、例えばFirefox、DropboxやCloudflareも、Rustを採用しています。スタートアップから大企業、組込み機器からスケーラブルなWebサービスに至るまで、Rustはぴったりです。
+私のRustに対する最大の賛辞は退屈だということで、これはすばらしい褒め言葉なんです。
+– Chris Dickinson, Engineer at npm, Inc
+ドキュメンテーション、ツール群、コミュニティそのすべてが秀逸です。Rustコードを書く上で必要な道具はすべて揃っています。
+– Antonio Verardi, Infrastructure Engineer
+もっと読む
+参加しよう
+Rustを読む
+私たちはドキュメントを愛しています！ オンライン上に公開している書籍、さらにブログ記事やユーザーガイドを見てみてください。
+ドキュメントを読む
+Rustを観る
+Rustコミュニティには専用のYouTubeチャンネルがあり、そこには多くのプレゼンテーションやチュートリアルが投稿されています。
+動画を観る
+コードに貢献する
+Rustは真にコミュニティ活動の賜物であり、日曜プログラマからプロダクションユーザまで、初心者から経験豊富なプロフェッショナルまで参加を歓迎します。共にRustでの体験をさらに良いものにしましょう！
+コントリビューションガイドを読む
+謝辞
+個人や企業からの時間や作業、リソースの寛大な寄付なしではRustは存在していないでしょう。支援に大変感謝します！
+個人
+Rustはコミュニティプロジェクトであり、多くのコミュニティの貢献にとても感謝しています。
+コントリビュータを見る
+企業スポンサー
+Rustプロジェクトは、インフラの寄付を通じて企業からサポートを受けています。
+スポンサーを見る
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？
+Rust をインストール - Rustプログラミング言語
+Rust
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Rust をインストール
+rustup を使う（おすすめ）
+あなたはmacOSかLinuxまたはその他のUnix系OSを使用しているようです。RustupをダウンロードしてRustをインストールするには、ターミナルで以下のコマンドを実行してください。それから画面に表示される指示に従ってください。Windowsユーザである場合には、「その他のインストール方法」を参照してください。
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+あなたはWindowsを使用しているようです。Rustを使い始めるには、インストーラをダウンロードして実行し、画面に表示される指示に従ってください。場合によっては、Visual Studio C++ Build toolsをインストールする必要があります。もしWindowsユーザでない場合には、「その他のインストール方法」を参照してください。
+rustup-init.exe(32-bit)をダウンロードする
+rustup-init.exe(64-bit)をダウンロードする
+Windows Subsystem for Linux
+あなたがWindows Subsystem for Linuxのユーザーであるなら、下記をターミナル上で実行し、スクリーン上の説明に従ってRustをインストールしてください。
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+RustはWindows、Linux、macOS、FreeBSD、そしてNetBSD上で動作します。これらのプラットフォームのいずれかでこれが表示されている場合は、以下の値と一緒に問題を報告してください。
+navigator.platform:
+MacIntel
+navigator.appVersion:
+5.0 (Macintosh)
+問題を報告する
+Unix上でRustをインストールするときは、以下をターミナルで実行し、画面の指示に従ってください。
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+Windows上では、rustup-init.exeをダウンロード・実行し、画面の指示に従ってください。
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+Windows上であれば、rustup-init.exeをダウンロード・実行し、画面の指示に従ってください。
+Rust のインストールについての注意
+はじめに
+Rustをこれから始めようとしていて、詳細を見渡したいのなら、はじめるのページを見てください。
+Windowsの場合
+Windowsでは、RustはさらにVisual Studio 2013以上のC++ビルドツールを要求します。ビルドツールを手に入れる最も簡単な方法は、Visual C++ビルドツールのみを提供するMicrosoft Visual C++ Build Tools 2019をインストールすることです。
+他には、Visual Studio 2019、Visual Studio 2017、Visual Studio 2015、Visual Studio 2013のいずれかをインストールし、インストール時に「C++ tools」を選択することでもできます。
+WindowsでのRustの設定についての詳しい情報は、Windows用のrustupドキュメントを参照してください。
+rustupを使ったツールチェーンの管理
+Rustはrustupというツールによってインストール・管理されます。
+Rustには６週間ごとのラピッドリリースプロセスがあり、多数のプラットフォームをサポートしているので、 数多くのビルドがいつても利用できます。
+rustupはこれらのビルドを、Rustがサポートしているすべてのプラットフォームで一貫した方法で管理し、betaやnightly版のリリースチャンネルや、追加のクロスコンパイルターゲットもサポートしています。
+もしrustupで過去にRustをインストールしたならば、いつでもrustup updateを実行することでインストールしたものをアップデートできます。
+より詳しい情報はrustupのドキュメントを参照してください。
+PATH環境変数を設定する
+Rustの開発環境において、全てのツールは~/.cargo/bin%USERPROFILE%\.cargo\binディレクトリにインストールされ、ここにrustc、cargo、rustupを含むRustのツールチェーンが置かれます。
+よって、このディレクトリをPATH環境変数に含めるのが、Rustの開発者にとっての通例となっています。
+インストールの際、rustupはPATHを設定しようとします。
+プラットフォームやコマンドシェルの差異、あるいはrustupのバグにより、PATHの変更はコンソールを再起動、もしくはユーザーがログアウトするまで適用されない場合や、完全に失敗してしまう場合があります。
+もし、インストール後、コンソールでrustc --versionの実行が失敗するときは、この環境変数の未設定が原因であることが多いです。
+Rustをアンインストールする
+Rustをアンインストールしたくなったときは、
+rustup self uninstall
+を実行することでいつでもアンインストールできます。
+寂しいですけどね！
+その他のインストール方法
+上記のrustupによるインストールが、ほとんどの開発者にとってRustをインストールをする好ましい方法です。しかし、Rustは他の方法でもインストールすることができます。
+もっと知る
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？
+Rustを学ぶ - Rustプログラミング言語
+Rust
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Rustを学ぶ
+Rustを始めよう
+「the book」としても親しまれているプログラミング言語Rustは、この言語の概観を基本原理から説明します。読み進める中で複数のプロジェクトを構築し、読み終わるまでにはこの言語の確かな理解が得られます。
+the Bookを読もう！
+非公式の日本語翻訳版はこちら
+あるいはRustlingsなら、コマンドライン上で、Rustのツールチェインのダウンロードとセットアップ方法を確認しながら、Rustの構文の基本的な読み書きを学ぶことができます。Rust by Exampleをあなたの環境で動かすようなものです。
+Rustlingsコースをやってみよう！
+ひとつの言語について何百ページも読むのがあなたの好みに合わなければ、 Rust By Exampleにお任せください。the bookはコードをたくさんの言葉で説明しますが、 RBE (Rust By Example)はたくさんのコード例を示し、説明は最小限です。練習問題もあります！
+Rust by Exampleを見てみよう！
+Rustと共に成長する
+コアドキュメントを読む
+このドキュメントの全てはローカルでもrustup docコマンドで参照可能で、ネットワーク接続なしにブラウザで開けます！
+標準ライブラリ
+Rust標準ライブラリAPI完全ガイド。
+エディションガイド
+Rustのエディションに関する手引き。
+Cargoブック
+Rustのパッケージマネージャとビルドシステムに関する本。
+rustdocブック
+あなたのcrateに素晴らしいドキュメントを用意する方法を学ぼう。
+rustcブック
+Rustコンパイラで利用可能なオプションに精通しましょう。
+コンパイラエラーインデックス
+Rustコンパイラが出す可能性のあるエラーの詳細な説明。
+アプリケーションドメインのスキルを得る
+コマンドラインブック
+便利なコマンドラインアプリケーションをRustで作る方法を学ぼう。
+WebAssemblyブック
+Rustを用いてWebAssemblyを介したブラウザネイティブライブラリを作る。
+組込みブック
+マイクロコントローラおよびその他の組込みシステムにおけるRustに習熟しよう。
+Rustをマスターする
+この言語の目立ちづらい部分に興味がありますか？ここから核心に迫ることができます。
+リファレンスは正式な仕様ではありませんが、the bookよりも詳細で包括的です。
+リファレンスを読む
+Rustonomiconは黒魔術であるアンセーフなRustへの手引書です。しばしば「’nomicon」とも呼ばれます。
+’nomiconを読む
+Unstableブックにはnightly Rustのみで使える不安定な機能に関する記述があります。
+unstableブックを読む
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？
+ツール - Rustプログラミング言語
+Rust
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+ツール
+第一級のエディタサポート
+コマンドラインでコードを書くことが好みでも、リッチなグラフィカルエディタが好みでも、あなたの選ぶエディタにはRustの拡張機能があるでしょう。また、rust-analyzerを使って自分だけの環境を作ることも可能です。
+VS Code
+Sublime Text
+RustRover
+Eclipse
+Vim
+Emacs
+Visual Studio
+ビルドにやすらぎを
+CargoはRustのビルドツールです。全ての一般的な操作がひとつのコマンドに集約されています。ボイラープレートは不要です。
+インストール
+何万ものパッケージがあるcrates.ioなら、お探しの解決策を持つクレートが見つかることでしょう。巨人の肩の上に乗り、チームを反復から革新へと導きます。
+テスト
+Rustの優秀なテストツールでコードに信頼性をもたらしましょう。cargo testはRustの統合テストソリューションです。テストをコードの隣にも別のファイルにも書くことができ、あらゆるテストニーズに解決策を提供します。
+デプロイ
+cargo buildは、あらゆるプラットフォーム向けに無駄のないバイナリを生成します。1回のコマンドだけで、あなたのコードをWindows、Linux、macOS、そしてウェブ向けにビルドすることができます。すべてがモダンなインターフェイスの一部であり、環境に依ったビルドファイルは必要ありません。
+自動化のもたらす速度
+Rustの実用レベルのツールは心理的安全性をもたらし、チームが重要なタスクに集中できるようにします。
+Rustfmt
+Rustfmtは自動的にRustコードをフォーマットし、読み書きしやすく保守しやすいものにします。そしてもっとも重要なことは、スペースの数や括弧の位置についてもはや議論の余地はないということです。
+リポジトリに行く
+Clippy
+「イテレータを書いていますね」
+Clippyはあらゆる経験レベルの開発者が、コード規約を守ったRustらしいコードを書くことができるようにサポートします。
+リポジトリに行く
+Cargo Doc
+CargoのドキュメントビルダーはどんなAPIでもドキュメント化できます。ドキュメントは、ローカルではcargo docで、オンラインにあるパブリックなクレートではdocs.rsで参照できます。
+サイトに行く
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？
+ガバナンス - Rustプログラミング言語
+Rust
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+ガバナンス
+Rustがコミュニティによってどのように作られているか
+ロードマップおよびRFCプロセス
+Rustにおける主な決定事項はどれも、Request for Comments (RFC)の一つとして始まります。
+提案されたRFCについて議論し、トレードオフについて共通理解を得るよう努めることが求められます。
+時には労力を要しますが、このコミュニティによる熟議こそがRustの質を保つ秘訣なのです。
+もっと読む
+チーム
+Leadership council
+Charged with the success of the Rust Project as whole, consisting of representatives from top-level teams
+メンバー&連絡先
+コンパイラチーム
+コンパイラ内部と最適化を扱います
+メンバー&連絡先
+Crates.ioチーム
+crates.ioの運用、開発、ポリシーの管理を行います。
+メンバー&連絡先
+開発ツールチーム
+Rust向け開発ツールを作成します。
+メンバー&連絡先
+インフラストラクチャチーム
+Rustプロジェクトをサポートするインフラストラクチャ（CIやリリース、bot、メトリクス）を管理します。
+メンバー&連絡先
+言語チーム
+新しい言語機能の設計を行います
+メンバー&連絡先
+ライブラリチーム
+Rust標準ライブラリ、rust-langのクレート、規約、そしてエコシステムのサポート
+メンバー&連絡先
+モデレーションチーム
+行動規範の維持を支援します
+メンバー&連絡先
+ワーキンググループ
+Async working group
+Pursuing core language and library support for async-await
+メンバー&連絡先
+コマンドラインインターフェイス（CLI）ワーキンググループ
+Rustで大小様々なCLIアプリを書くという、エンドツーエンドの体験に焦点を絞っています。
+メンバー&連絡先
+組込み機器ワーキンググループ
+リソースに制約のある環境や従来とは異なるプラットフォームでの、Rustを使用するエンドツーエンドの体験に焦点を絞っています。
+メンバー&連絡先
+ゲーム開発ワーキンググループ
+Rustをゲーム開発のデフォルトの選択肢にすることに焦点を置いています。
+メンバー&連絡先
+Rust by Example working group
+Maintaining and updating the official Rust by Example book
+メンバー&連絡先
+セキュアコードワーキンググループ
+Rustで安全なコードを簡単に書けるようにします
+メンバー&連絡先
+セキュリティレスポンスワーキンググループ
+受け取った脆弱性レポートのトリアージと対応を行います
+メンバー&連絡先
+トリアージワーキンググループ
+rust-lang organization管理下のリポジトリをトリアージします
+メンバー&連絡先
+WebAssembly（WASM）ワーキンググループ
+WebAssemblyを通してJSライブラリやアプリケーションにRustコードを組み込む、エンドツーエンドの体験に焦点を絞っています。
+メンバー&連絡先
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？
+コミュニティ - Rustプログラミング言語
+Rust
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+コミュニティ
+議論の場
+ユーザーフォーラム
+Rustユーザーフォーラムは、RustユーザーがRustに関するあらゆることを話し合うための場所です。 ここで質問をしたり、プロジェクトのアイデアをまとめたり、好きなように使ってください！
+フォーラムにアクセスする
+インターナルフォーラム
+Rust内部フォーラムはRustそのものの開発に関する議論をする場所です。コンパイラだけでなく言語設計や標準ライブラリの開発が議論の対象です。
+フォーラムにアクセスする
+チャットプラットフォーム
+Rustの開発や一般的な話し合いは、いくつかのチャットプラットフォーム上で行われています。RustのDiscordサーバにあるgeneral等のチャンネルを確認いただくか、チームページを見て特定のチームがどこで話し合っているかを確認してみてください。
+Discord
+Zulip
+チームについてもっと知る
+フォーラムにアクセスする
+フォーラムにアクセスする
+Discord
+Zulip
+チームについてもっと知る
+学びの場
+Rustについてもっと知る
+プログラミング言語Rustは様々な長所を持っていますが、その中でも最大の強みはRustでの取り組みを有意義なものにするために集まった人々によるコミュニティにあります。
+Rustコミュニティの最新情報を見逃さないようにしましょう！
+This Week in Rust
+連絡先
+私たちはあなたの意見を聞きたいです！どこで誰に質問すればいいかわかりませんか？参加したいけれどどうすればいいかわかりませんか？コミュニティチームはあなたを手助けできる人と繋ぎたいと思っています！
+community@rust-lang.org にメールを送る
+This Week in Rust
+community@rust-lang.org にメールを送る
+イベント
+近くのミートアップやカンファレンスを探す
+世界35カ国以上で、90以上のミートアップや様々なカンファレンスが開催されており、RustaceansはRustユーザグループに定期的に集まります。それらはコミュニティへの導入として優れていて、関心の近い人々と学び交流することができる素晴らしい機会です。ミーティングは堅苦しいものではなく、誰にでも開かれています。
+カレンダーを見る
+2020年のカンファレンス一覧を確認する
+イベントを開催する
+Rustの成長に伴い、私たちは皆さまがローカルイベントを開催できるよう手助けを行なっております。ハックや勉強会からミートアップやカンファレンスに至るまで、Rustイベントチームはあなたのサポートをする準備ができています。
+さらに開催するイベントを登録いただくことで、私たちはコミュニティとしての取り組みを把握することができるようになり、あなたをその地域にいるスピーカーや他のメンバーと繋げることができるでしょう
+イベントチームのリポジトリを確認する
+イベントを登録する
+Rustbridge
+RustBridgeは、他の言語をバックグラウンドとして持つRustに馴染みのない人々を対象とした、Rustを学びコミュニティに参加して頂くためのワークショップです。
+Rustbridgeのリポジトリを確認する
+コミュニティ規定
+私たちは、性別、性的指向、障害、民族、宗教、その他の個人的特徴に関わらず、友好的かつ安全ですべての人を歓迎する環境を提供することに尽力します。私たちの行動規範はすべての公式のRustフォーラムにおける行動基準を定めています。
+あなたがコミュニティメンバーにハラスメントを受けているか、または不快にさせられていると感じた場合は、ただちにRustモデレーションチームの誰かに連絡してください。あなたが常連の寄稿者であろうと、新規参入者であろうと、私たちはこのコミュニティをあなたにとって安全な場所にすることに気を配っています。
+モデレーションチームにメッセージを送る
+行動規範を読む
+モデレーションガイドラインを読む
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？
+はじめに - Rustプログラミング言語
+Rust
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+はじめに
+Rust開発環境をさっと構築して小さなアプリを書きましょう！
+Rustをインストールする
+Rust Playgroundではコンピュータに何もインストールすることなく、オンラインでRustを試すことができます。
+インストールせずにRustを試す
+Rustup：Rustインストーラおよびバージョン管理ツール
+一般によく採用されるRustのインストール方法は、Rustupというツールを介するものです。このツールはRustインストーラとバージョン管理ツールを兼ねたものです。
+あなたはmacOSかLinuxまたはその他のUnix系OSを使用しているようです。RustupをダウンロードしてRustをインストールするには、ターミナルで以下のコマンドを実行してください。それから画面に表示される指示に従ってください。Windowsユーザである場合には、「その他のインストール方法」を参照してください。
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+あなたはWindowsを使用しているようです。Rustを使い始めるには、インストーラをダウンロードして実行し、画面に表示される指示に従ってください。場合によっては、Visual Studio C++ Build toolsをインストールする必要があります。もしWindowsユーザでない場合には、「その他のインストール方法」を参照してください。
+rustup-init.exe(32-bit)をダウンロードする
+rustup-init.exe(64-bit)をダウンロードする
+Windows Subsystem for Linux
+あなたがWindows Subsystem for Linuxのユーザーであるなら、下記をターミナル上で実行し、スクリーン上の説明に従ってRustをインストールしてください。
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+RustはWindows、Linux、macOS、FreeBSD、そしてNetBSD上で動作します。これらのプラットフォームのいずれかでこれが表示されている場合は、以下の値と一緒に問題を報告してください。
+navigator.platform:
+MacIntel
+navigator.appVersion:
+5.0 (Macintosh)
+問題を報告する
+Unix上でRustをインストールするときは、以下をターミナルで実行し、画面の指示に従ってください。
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+Windows上では、rustup-init.exeをダウンロード・実行し、画面の指示に従ってください。
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+Windows上であれば、rustup-init.exeをダウンロード・実行し、画面の指示に従ってください。
+Rustは最新ですか？
+Rustは頻繁に更新されます。rustupをインストールしたのがしばらく前なら、Rustのバージョンが古くなっている場合があります。rustup update を実行して、最新バージョンのRustをインストールしましょう。
+インストールの方法についてもっと知る
+Cargo：Rustビルドツールおよびパッケージマネージャ
+Rustupをインストールすると、Rustのビルドツール兼パッケージマネージャであるCargoの最新安定版が同時に手に入ります。Cargoはたくさんのことをします：
+プロジェクトのビルドにはcargo build
+プロジェクトの実行にはcargo run
+プロジェクトのテストにはcargo test
+プロジェクトのドキュメントのビルドにはcargo doc
+ライブラリをcrates.ioに公開するにはcargo publish
+RustとCargoがインストールされたことを確かめるには、ターミナルでこれを実行してください
+cargo --version
+cargoブックを読む
+その他のツール
+Rustは多くのエディタでサポートされています：
+VS Code
+Sublime Text
+RustRover
+Eclipse
+Vim
+Emacs
+Visual Studio
+新しいプロジェクトを作成する
+新しいRust開発環境で小さなアプリケーションを書きましょう。始めにCargoを使って新しいプロジェクトを作りましょう。好きなターミナルで以下を実行します：
+cargo new hello-rust
+これでhello-rustという新しいディレクトリが作られ、以下のファイルが置かれます：
+hello-rust
+|- Cargo.toml
+|- src
+|- main.rs
+Cargo.tomlはRust用のマニフェストファイルです。プロジェクトのメタデータに加え依存関係も記録されます。
+src/main.rsがアプリケーションのコードを書く場所です。
+cargo newは「Hello, world!」プロジェクトを生成します！ターミナルで作成した新しいディレクトリに移動し、以下を実行することでこのプログラムを実行できます：
+cargo run
+以下の出力が得られるはずです：
+$ cargo run
+Compiling hello-rust v0.1.0 (/Users/ag_dubs/rust/hello-rust)
+Finished dev [unoptimized + debuginfo] target(s) in 1.34s
+Running `target/debug/hello-rust`
+Hello, world!
+依存関係を追加する
+さあ、アプリケーションに依存関係を追加しましょう。 Rustのパッケージレジストリであるcrates.io上で、あらゆる種類のライブラリを見つけることができます。Rustではパッケージのことをよく「クレート」と呼びます。
+このプロジェクトでは、ferris-saysと呼ばれるクレートを使用します。
+Cargo.tomlファイルにこの情報（クレートページから取得）を追加しましょう。
+[dependencies]
+ferris-says = "0.3.1"
+さあ、実行してみましょう。
+cargo build
+すると、Cargoが依存関係をインストールするでしょう。
+このコマンドの実行によってCargo.lockという新しいファイルが作成されていることがわかるでしょう。このファイルは私たちがローカルで使っている依存関係の厳密なバージョンを記録しています。
+この依存関係を使うためにmain.rsを開いてみましょう。（別の例を示すために）中身をすべて削除してこの行を追加してください。
+use ferris_says::say;
+この行はferris-saysクレートがエクスポートしたsay関数を使えることを示しています。
+小さいRustアプリケーション
+さあ、新しい依存関係を持った小さなアプリケーションを書いてみましょう。私たちのmain.rsの中に、次のコードを追加してください。
+use ferris_says::say; // from the previous step
+use std::io::{stdout, BufWriter};
+fn main() {
+let stdout = stdout();
+let message = String::from("Hello fellow Rustaceans!");
+let width = message.chars().count();
+let mut writer = BufWriter::new(stdout.lock());
+say(&message, width, &mut writer).unwrap();
+}
+これを保存し、次のように入力することでアプリケーションを実行します。
+cargo run
+きっとうまく動いたでしょう。アプリケーションが画面に次のように出力していることを確認してください。
+__________________________
+< Hello fellow Rustaceans! >
+--------------------------
+\
+\
+_~^~^~_
+\) /  o o  \ (/
+'_   -   _'
+/ '-----' \
+もっと学ぼう！
+あなたは今やRustaceanです！ようこそ！お会いできて光栄です。準備ができたら学習ページに移動してみましょう。そこであなたはRustの冒険を手助けする多くのドキュメントを見つけることができるでしょう。
+もっと学ぼう！
+フェリスというこのカニは誰ですか？
+フェリスはRustコミュニティの非公式マスコットです。多くのRustプログラマは自身のことを「Rustacean」と呼びますが、これはcrustaceanの言葉遊びから来ています。私たちはフェリスを指し示すのに、性別を表す代名詞の代わりに「they」や「them」などの代名詞を使います。
+フェリスは、鉄もしくは鉄に関連することを意味する「ferrous」という形容詞に由来する名前です。錆び（Rust）は鉄の上にできることが多いので、マスコットの名前の起源として面白いですね！
+rustacean.netでは、より多くのフェリスの画像を見つけることができるでしょう。
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？
+コマンドラインアプリケーション - Rustプログラミング言語
+Rust
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+コマンドラインアプリケーション
+なぜRustか？
+堅牢かつ高速
+短い書き捨てのスクリプトを書くときでも、Rustは高速でテストしやすく、役に立つ出力を与えてくれます。
+Rustが保証するもの
+配布が簡単
+すべてをひとつのバイナリにコンパイルできます。あなたのユーザーがランタイムやライブラリをインストールする必要はありません。
+Rustコードをリリースするには
+堅牢な設定管理
+プラットフォームをまたいで設定ファイルを扱うのも簡単です。Rustが名前空間とフォーマットを管理します。
+設定管理を始める
+マニュアル？できてます。
+アプリケーションのマニュアルを自動生成できます。生成されたファイルをパッケージングするだけで完成です。
+やり方を学ぶ
+データイン、データアウト
+人間と話すのはもちろん、マシンと話すための優れたツールがRustにはあります。
+マシンとコミュニケーションをとる
+柔軟なロギング
+ロギングは簡単に追加できますし、ターゲットやスタイルの変更はもっと簡単です。
+ログ、トレース、理解
+保守性の高いコードベース
+エラーは即座にキャッチ
+設定ファイルが存在しなかったり壊れていたら？ある環境変数の値が空だったら？こういうケースは忘れやすいものです！しかし、Rustのエラーハンドリング手法とライブラリ設計は優れているため、 こういった「もしも」の事態をプログラムを実行するよりも前に指摘するでしょう。
+Rustのエラーハンドリング
+後から拡張するのも簡単
+Rustならコードを整理することも柔軟にできます。最初は一つのファイルで済んでいたものがより多くの機能が必要になった場合にも、何かを壊してしまう心配なくアプリケーションをリファクタリングできます。
+Rustにおけるリファクタリング
+はじめましょう！
+コマンドラインアプリケーションを書くことは、Rustを学ぶ優れた方法です。
+入力を定義する
+use clap::Parser;
+/// Read some lines of a file
+#[derive(Debug, Parser)]
+struct Cli {
+/// Input file to read
+file: String,
+/// Number of lines to read
+#[structopt(short = 'n')]
+num: usize,
+}
+ツールを書く
+use std::{error::Error, fs::read_to_string};
+fn main() -> Result<(), Box> {
+let args = Cli::parse();
+read_to_string(&args.file)?
+.lines()
+.take(args.num)
+.for_each(|line| println!("{}", line));
+Ok(())
+}
+CLIブックでもっと知る
+本番環境での利用
+私たちがRustを気に入った理由の一つにcrates.ioのエコシステムがあります。 [...] 本当に素晴らしいコマンドラインインターフェイスを構築するための、非常に優れたインフラが数多く存在します。
+– Armin Ronacher,
+Rust at Sentry – PolyConf 2017
+このコードベースを利用していて後悔したことはありません。 [...] Rustを使ってCLIやコンソールベースのツールを作るというのは、私にとって予想外のボーナスのようなものでした。Rustは複数のターゲットシステム向けのコンパイルに非常に優れているのです。
+– Fletcher Nichol,
+Taking Rust to Production – RustFest Kyiv
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？
+WebAssembly - Rustプログラミング言語
+Rust
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Web­Assembly
+なぜRustか？
+予測可能なパフォーマンス
+予測できないガベージコレクションによって、動作が停止することはありません。JITコンパイラによる急激なパフォーマンス低下もありません。低レベルの制御と高レベルのエルゴミクスの両立を実現しています。
+小さいコードサイズ
+コードサイズが小さくなるとページの読み込み速度は向上します。Rustが生成する.wasmはガベージコレクタのように必要のないものを含みません。先進的な最適化とツリーシェイキングは不要なコードを取り除きます。
+モダンで快適な環境
+アクティブなライブラリのエコシステムは開発を進める際に大きな助けとなります。高い表現力を持つゼロコスト抽象化も備わっています。そしてコミュニティはあなたを歓迎して学習をサポートします。
+はじめましょう！
+WebAssemblyと呼ばれる高速で安全かつオープンな仮想マシンについてもっと学び、そしてその標準規格を読みましょう。
+もっと学ぶ
+Rustを使ったWebAssemblyアプリケーションのビルド、デバッグ、プロファイル、そしてデプロイの方法を学ぼう！
+ドキュメントを読む
+Mozilla Developer NetworkでWebAssemblyについてもっと学ぶ
+確認する
+JavaScriptとのすてきな共演
+置換ではなく、拡張
+WebAssemblyの目的はJavaScriptを終わらせるのではなく共存して、処理が重いタスクやレイヤの低いタスクの処理をサポートすることです。これらのタスクは、パフォーマンスに重点を置くRustだからこそ恩恵を受けられると言えるでしょう。
+一般的なツールチェーンとの連携
+RustのWebAssemblyパッケージはnpmのようなパッケージレジストリに公開できます。webpackやParcelなどをバンドルしてリリースすることもできます。管理にはnpm auditやGreenkeeperのようなツールが使えます。
+シームレスな相互運用
+RustとWebAssembly、JavaScript API間をバインドするコードは自動生成できます。web-sysのようなライブラリを使えば、各ウェブプラットフォームへのバインディングをパッケージ済みの状態で提供することもできます。
+本番環境での利用
+RustをWASMにコンパイルして、サーバーレス関数から呼び出すことができます。これはとても素晴らしいことで、より多くのことをするのが待ちきれません。
+– Steven Pack, Serverless Rust with Cloudflare Workers
+source-mapのJavaScript実装はパフォーマンスの名の下に複雑なコードが跋扈しており、私たちはそれを表現力のあるRustに書き換えました。Rustは明確な表現とランタイムパフォーマンスのどちらか一方を選ぶよう迫ることはありません。
+– Nick Fitzgerald, Oxidizing Source Maps with Rust and WebAssembly
+上記のように、[Rustの]特性を活かせば、WASMを使ってwebページにDivANSコーデックを簡単に組み込めます。
+– Daniel Reiter Horn and Jongmin Baek, Building Better Compression Together with DivANS
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？
+ネットワーク - Rustプログラミング言語
+Rust
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+ネットワーク
+なぜRustか？
+省リソース
+リソースの使用を制御しメモリとCPUにかかる負荷を最小限に抑えます。
+コンパイラーの助けを借りて、正しく動作することを確認しましょう。
+生産的で使い心地のよいエコシステムでこれを行います。
+安全性と信頼性
+Rustの強力な型チェッカがあらゆる種類のバグを防ぎます。
+状態がいつどこで共有および変更されたかを確実に把握できます。
+障害点を突き止める検査をデプロイ前に行います。
+大規模な並行処理
+最適な並行性アプローチを組み合わせて使用​​します。
+Rustは、スレッドまたはタスク間で誤って状態を共有しないようにします。
+スケーリングの最後のビットまで大胆に絞ることができます。
+はじめましょう！
+Rustにはウェブのための使いやすいライブラリのエコシステムがあり成長を続けています。ここでは例として二つ紹介します。
+JSONをPOSTする
+// This will POST a body of
+//     `{"lang": "rust", "body": "json"}`
+#[derive(Serialize)]
+struct Body<'a> {
+lang: &'a str,
+body: &'a str,
+}
+let client = reqwest::Client::new();
+let res = client.post("http://httpbin.org/post")
+.json(&Body {
+lang: "rust",
+body: "json",
+})
+.send()?;
+reqwestについてもっと知る
+JSON POSTをハンドルする
+#[derive(Deserialize)]
+struct Task { name: String, completed: bool }
+#[post("/", data = "<task>")]
+fn new(task: Json<Task>) -> Flash<Redirect> {
+if task.name.is_empty() {
+Flash::error(Redirect::to("/"),
+"Cannot be empty.")
+} else {
+Flash::success(Redirect::to("/"),
+"Task added.")
+}
+}
+Rocketについてもっと知る
+本番環境での利用
+私たちはPush接続インフラストラクチャをRustに移行することで、非常に高いパフォーマンスを実現しながらも、正確性に重点を置いた保守しやすいコードベースを手にしました。私たちは現在、ピーク時には2,000万件のwebsocket同時接続をRustサーバーで捌いています。
+– Benjamin Bangert, スタッフエンジニア, Mozilla
+Linkerdプロジェクトの技術ロードマップにおいて、Rustは土台となるものです。その型システムによって、モジュール性がありテスト可能で組み合わせ可能なユニットを、実行時性能を犠牲にすることなく作れます。その一方で最も驚かされる点として、Rustのライフタイム／借用チェックシステムにより大部分のリソースリークを避けられることが挙げられます。二年経ちましたが、他の言語を業務で使うことは全くもって想像できないですね。
+– Oliver Gould, CTO, Buoyant
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？
+組込み機器 - Rustプログラミング言語
+Rust
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+組込み機器
+なぜRustか？
+強力な静的解析
+コンパイル時にピンおよび周辺機器の設定を指定できます。これによってリソースがアプリケーションの意図しない部分で使われないよう保証します。
+もっと知る
+柔軟なメモリ管理
+動的なメモリ割り当てが可能です。グローバルアロケータおよび動的データ構造をお使いください。もしくはヒープを全く使わずに静的にすべて割り当てることも可能です。
+もっと知る
+怖いもの知らずの並行処理
+Rustではスレッド間で誤って状態が共有されることはありません。お好きな並行処理方式をお使いください、いずれもRustの強力な保証を提供します。
+もっと知る
+相互運用性
+Rustを既存のCコードベースと統合したり、既存のSDKを活かしてRustアプリケーションを書くことができます。
+もっと知る
+移植性
+ライブラリやドライバを一度書くだけで、非常に小さなマイクロコントローラから強力なSBCまで、多様なシステムで扱えます。
+もっと知る
+コミュニティドリブン
+組込みシステムのサポートはRustオープンソースプロジェクトの一環として、最高クラスのオープンソースコミュニティによってパートナー企業からの支援を受けつつ行われています。
+もっと知る
+ショーケース
+「Mozillaから出ているRustに出会ったとき、とても興奮しました。 Rustは新しいプログラミング言語で『安全、高速、並行。3つを兼ね備える。』を標語としています。その未来は確実で、強力で献身的なユーザコミュニティがついています。」
+– Jonathan Pallant, Senior Consultant, Cambridge Consultants
+もっと見る
+Securing the future, with Rust、作者Cambridge Consultants、Vimeoに掲載
+はじめましょう！
+The Discovery book
+組込み開発を基礎から学ぼう—Rustを使って！
+読む
+The Embedded Rust book
+組込み開発はもうお手のものですか？今すぐRustを始めてその恩恵を受けましょう。
+読む
+The Embedonomicon
+基礎的な組込みライブラリの内部を見てみましょう。
+読む
+もっとドキュメントを読む
+本番環境での利用
+Sensirionでは最近、Rustを用いてSensirionのParticulate Matter Sensorの組込みデモンストレータを作りました。クロスコンパイルの容易さと多くの高品質なクレートがcrates.io上で提供されているおかげで、私たちは高速で堅牢なデモンストレータを素早く作ることができました。
+– Raphael Nestler, Software Engineer, Sensirion
+Airborne Engineering Ltd.では最近、私たちは社内データ収集システムのためのEthernetブートローダblethrsをRustを用いて書きました。Rustは有望な言語であり、組込み等のプロジェクトで将来使うことを楽しみにしています。
+– Dr. Adam Greig, Instrumentation Engineer, Airborne Engineering Ltd.
+[Rust] により、ソフトウェアを私たちの想像を超えて速く正確にリリースできます。Rustのおかげで私たちはメモリ安全性を当たり前のものとして扱うことができますし、その一方で洗練された型システムをもつゼロオーバーヘッド言語としての利点によって、保守性の高いソフトウェアを開発することができます。Rustは私たちの顧客だけでなく、エンジニアをも幸せにします。
+– Marc Brinkmann, CEO, 49nord
+一般にC/C++の代替がないとされている組込み分野において、現代的で優れた言語を使えるというのは本当にすばらしいことだと思います。
+– Aleksei Arbuzov, Senior Software Engineer, Terminal Technologies
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？
+プロダクション - Rustプログラミング言語
+Rust
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+プロダクション
+ホワイトペーパー
+npm
+同名のJavaScriptレジストリを運営するnpmが、いかにしてRustをデプロイするのが退屈だと感じるようになったかをご覧ください。
+ホワイトペーパーを読む
+Tilde
+Skylightの開発チームであるTildeが、顧客のアプリケーションのため高機能なパフォーマンス監視を、Rustによって最小限のリソースで実現した方法をご覧ください。
+ホワイトペーパーを読む
+ハイライト
+Dropbox
+データセンターの効率性を高める大きなプロジェクトの第一歩として、Dropboxの中核となるファイルストレージシステムの複数のコンポーネントがRustで書かれました。それらは現在すべてのDropboxストレージで使われており、5億人を超えるユーザを支えています。
+もっと読む
+Yelp
+YelpはリアルタイムA/BテストのためのフレームワークをRustで開発しました。Yelpのウェブサイトやアプリすべてに渡って使われており、対象範囲はUXから内部インフラまで多岐に渡ります。RustはCと同等に速く（実行コストが低い）、Cよりも安全（容易にメンテナンスできる）であるために選ばれました。
+動画を見る
+あなたの会社はRustを使っていますか？ あなたの体験をぜひ共有してください！
+リーダーシップカウンシルに連絡する
+Rustをプロダクションで使っている人々についてもっと知りたいですか？
+ユーザページを見る
+企業が特定の開発ドメインにおいてどのようにツールを使っているかご覧ください！
+コマンドライン
+もっと読む
+WebAssembly
+もっと読む
+ネットワーク
+もっと読む
+組込み
+もっと読む
+Rustを支援する
+Rustの開発、もしくはRustカンファレンスのスポンサードに興味がありますか？ あなたからの連絡をお待ちしております。
+リーダーシップカウンシルへメッセージを送る
+ライセンス
+Rustは、Apacheライセンスバージョン2.0およびMITライセンスでデュアルライセンスされており、あらゆる種類のプロジェクトにぴったりです。
+ポリシー：ライセンス
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？
+プロダクション - Rustプログラミング言語
+Rust
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+プロダクション
+ホワイトペーパー
+npm
+同名のJavaScriptレジストリを運営するnpmが、いかにしてRustをデプロイするのが退屈だと感じるようになったかをご覧ください。
+ホワイトペーパーを読む
+Tilde
+Skylightの開発チームであるTildeが、顧客のアプリケーションのため高機能なパフォーマンス監視を、Rustによって最小限のリソースで実現した方法をご覧ください。
+ホワイトペーパーを読む
+ハイライト
+Dropbox
+データセンターの効率性を高める大きなプロジェクトの第一歩として、Dropboxの中核となるファイルストレージシステムの複数のコンポーネントがRustで書かれました。それらは現在すべてのDropboxストレージで使われており、5億人を超えるユーザを支えています。
+もっと読む
+Yelp
+YelpはリアルタイムA/BテストのためのフレームワークをRustで開発しました。Yelpのウェブサイトやアプリすべてに渡って使われており、対象範囲はUXから内部インフラまで多岐に渡ります。RustはCと同等に速く（実行コストが低い）、Cよりも安全（容易にメンテナンスできる）であるために選ばれました。
+動画を見る
+あなたの会社はRustを使っていますか？ あなたの体験をぜひ共有してください！
+リーダーシップカウンシルに連絡する
+Rustをプロダクションで使っている人々についてもっと知りたいですか？
+ユーザページを見る
+企業が特定の開発ドメインにおいてどのようにツールを使っているかご覧ください！
+コマンドライン
+もっと読む
+WebAssembly
+もっと読む
+ネットワーク
+もっと読む
+組込み
+もっと読む
+Rustを支援する
+Rustの開発、もしくはRustカンファレンスのスポンサードに興味がありますか？ あなたからの連絡をお待ちしております。
+リーダーシップカウンシルへメッセージを送る
+ライセンス
+Rustは、Apacheライセンスバージョン2.0およびMITライセンスでデュアルライセンスされており、あらゆる種類のプロジェクトにぴったりです。
+ポリシー：ライセンス
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？
+Rustを学ぶ - Rustプログラミング言語
+Rust
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Rustを学ぶ
+Rustを始めよう
+「the book」としても親しまれているプログラミング言語Rustは、この言語の概観を基本原理から説明します。読み進める中で複数のプロジェクトを構築し、読み終わるまでにはこの言語の確かな理解が得られます。
+the Bookを読もう！
+非公式の日本語翻訳版はこちら
+あるいはRustlingsなら、コマンドライン上で、Rustのツールチェインのダウンロードとセットアップ方法を確認しながら、Rustの構文の基本的な読み書きを学ぶことができます。Rust by Exampleをあなたの環境で動かすようなものです。
+Rustlingsコースをやってみよう！
+ひとつの言語について何百ページも読むのがあなたの好みに合わなければ、 Rust By Exampleにお任せください。the bookはコードをたくさんの言葉で説明しますが、 RBE (Rust By Example)はたくさんのコード例を示し、説明は最小限です。練習問題もあります！
+Rust by Exampleを見てみよう！
+Rustと共に成長する
+コアドキュメントを読む
+このドキュメントの全てはローカルでもrustup docコマンドで参照可能で、ネットワーク接続なしにブラウザで開けます！
+標準ライブラリ
+Rust標準ライブラリAPI完全ガイド。
+エディションガイド
+Rustのエディションに関する手引き。
+Cargoブック
+Rustのパッケージマネージャとビルドシステムに関する本。
+rustdocブック
+あなたのcrateに素晴らしいドキュメントを用意する方法を学ぼう。
+rustcブック
+Rustコンパイラで利用可能なオプションに精通しましょう。
+コンパイラエラーインデックス
+Rustコンパイラが出す可能性のあるエラーの詳細な説明。
+アプリケーションドメインのスキルを得る
+コマンドラインブック
+便利なコマンドラインアプリケーションをRustで作る方法を学ぼう。
+WebAssemblyブック
+Rustを用いてWebAssemblyを介したブラウザネイティブライブラリを作る。
+組込みブック
+マイクロコントローラおよびその他の組込みシステムにおけるRustに習熟しよう。
+Rustをマスターする
+この言語の目立ちづらい部分に興味がありますか？ここから核心に迫ることができます。
+リファレンスは正式な仕様ではありませんが、the bookよりも詳細で包括的です。
+リファレンスを読む
+Rustonomiconは黒魔術であるアンセーフなRustへの手引書です。しばしば「’nomicon」とも呼ばれます。
+’nomiconを読む
+Unstableブックにはnightly Rustのみで使える不安定な機能に関する記述があります。
+unstableブックを読む
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？
+行動規範 - Rustプログラミング言語
+Rust
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+行動規範
+このポリシーはRustのコミュニティメンバーによって翻訳されています。原文（英語）と翻訳の間に齟齬がある場合は、原文が優先されます。
+行動
+私たちは、経験のレベル、性同一性および表現、性的指向、障害、個人の容姿、体格、人種、民族、年齢、宗教、国籍、その他の特徴にかかわらず、友好的かつ安全ですべての人を歓迎する環境を提供することに尽力します。
+過度に性的な偽名またはニックネームを使わないでください。友好的かつ安全ですべての人を歓迎する環境を損なうかもしれません。
+親切かつ丁寧に行動してください。意地悪や無礼をする必要はありません。
+人々には意見の相違があり、すべての設計または実装の選択にはトレードオフと数多のコストがかかることを尊重してください。正解はめったにありません。
+構造化されていない批評は最小限に留めてください。試してみたい確固たるアイデアがある場合は、フォークを作り、どのように動作するか確認してください。
+私たちは、あなたが誰かを侮辱し屈辱を与え、ハラスメントをした場合に、あなたを対話から除外します。それは歓迎的な行いではありません。「ハラスメント」という用語は、市民行動規範の定義を含むものと解釈します。その概念に何が含まれているのか明確でない場合は、その定義を読んでください。特に、社会的に疎外された人々を排除する行動は容認しません。
+個人的なハラスメントも容認されません。誰であっても、あなたがコミュニティメンバーにハラスメントを受けているか、または不快にさせられていると感じた場合は、ただちにチャンネル担当者または         Rustモデレーションチーム
+のいずれかに連絡してください。あなたが常連の寄稿者であろうと、新規参入者であろうと、私たちはこのコミュニティをあなたにとって安全な場所にすることに気を配っています。あなたには私たちがついています。
+同様に、いかなるスパム、荒らし行為、感情的な言動、釣り行為、その他の注意を反らす行為も歓迎されるものではありません。
+Rustモデレーションチームにメールを送る
+モデレーション
+これらは、コミュニティの行動基準を維持するためのポリシーです。スレッドにモデレーションが必要だと感じる場合は、Rustモデレーションチームに連絡してください。
+悪意のある、人を傷つける、圧制的、あるいは排他的な発言など、Rustの行動基準に反する発言は容認されません。（よくない言葉を使うことはできますが、決して他のユーザーに向けて発言したり、悪意を持って使ったりしてはいけません。）
+モデレーターが不適切だと判断した発言は、行動規範に記載されているかどうかに関わらず、容認されません。
+モデレーターはそのような発言に対しては、まず警告を発します。
+警告が無視された場合は、そのユーザーは「キック」されます。つまり、落ち着かせるためにコミュニケーションチャネルから追放します。
+そのユーザーが戻ってきてもなおトラブルを起こす場合は、そのユーザーは「BAN」されます。言い換えると、無期限に除外されます。
+もしそれがそのユーザーの最初の違反行為で、被害を受けたユーザーに心からの謝罪をするのであれば、モデレーターは彼らの裁量でそのユーザーのBANを解除することができます。
+モデレーターが誰かをBANしていて、それを不当なものだと思った場合は、そのモデレーターあるいは別のモデレーターとプライベートな場所でやり取りしてください。チャンネル内でのBANに関する苦情は認められません。
+モデレーターは他のコミュニティメンバーよりも高い基準に拘束されます。モデレーターが不適切な言動をとった場合、他のユーザーよりも厳しい対応が求められます。
+Rustコミュニティでは、お互いに気を配るためのさらなる一歩を踏み出そうと努力しています。技術的に非の打ち所がないだけではなく、最高の自分になりましょう。特に、攻撃的あるいはセンシティブな問題、とりわけ話題から外れているような問題には触れないようにしてください。これは、非常に多くの場合、不必要な争い、感情の傷つき、そして信用の喪失につながるためです。さらに悪いことに、人々をコミュニティから完全に遠ざけてしまうこともあります。
+そして、誰かがあなたの言動に異を唱えたら、自衛に走ろうとする衝動を抑えましょう。指摘された言動をやめて、謝りましょう。誤解されている、あるいは不当に非難されていると感じた場合でも、よりよいコミュニケーションをとることができた可能性は高いです。あなたの仲間であるRustaceansが快適だと感じられるようにするのは、あなたの責任だということを覚えておいてください。誰もが仲良くしたいと思っていますし、何よりもまず、素晴らしい技術について話したいがために、私たちはここにいます。あなたが信頼されている限り、人々は善意を持って寛容に接することを心がけてくれるでしょう。
+上記の実施方針は、Discordチャンネル（https://discord.gg/rust-lang）、rust-lang/rust-lang-nursery/rust-lang-deprecatedの管理下にあるGitHubリポジトリ、そしてrust-lang.orgの管理下にあるすべてのフォーラム（users.rust-lang.org、internals.rust-lang.org）を含むすべてのRustの公式の場で適用されます。Rustの行動規範を適用している他のプロジェクトについては、それぞれのプロジェクトのメンテナに連絡して実施してください。この行動規範をあなたのプロジェクトで使いたい場合は、混乱を避けるために、あなた自身のモデレーションポリシーに明示的に言及するか、それをコピーすることを検討してください。
+Node.js Policy on TrollingとContributor Covenant v1.3.0から改変。
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？
+ライセンス - Rustプログラミング言語
+Rust
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+ライセンス
+このポリシーはRustのコミュニティメンバーによって翻訳されています。原文（英語）と翻訳の間に齟齬がある場合は、原文が優先されます。
+ライセンス
+Rustプログラミング言語と、このウェブサイトを含むそれ以外の全ての公式プロジェクトは、原則として以下のデュアルライセンスで保護されます：
+Apacheライセンスバージョン2.0
+MITライセンス
+各プロジェクトの具体的なライセンス情報はGitHubリポジトリにあります。
+第三者のロゴは、第三者の著作権および商標の対象となる場合があり、他のRust Webサイトと同じライセンスでは利用できません。
+Rustプロジェクトまたはその関連プロジェクトのライセンスについて具体的な質問や懸念がある場合はRustリーダーシップカウンシルにお問い合わせください
+リーダーシップカウンシルにメールを送る
+帰属
+アイコンはwww.flaticon.com上で配布されているFreepikによって制作されたもので、CC-3.0-BYの下でライセンスされています。
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？
+セキュリティポリシー - Rustプログラミング言語
+Rust
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+セキュリティポリシー
+このポリシーはRustのコミュニティメンバーによって翻訳されています。原文（英語）と翻訳の間に齟齬がある場合は、原文が優先されます。
+報告
+security@rust-lang.orgにメールを送る
+Safety is one of the core principles of Rust, and to that end, we would like to ensure that Rust has a secure implementation. Thank you for taking the time to responsibly disclose any issues you find.
+All security bugs in the Rust distribution should be reported by email to security@rust-lang.org. This list is delivered to a small security team. Your email will be acknowledged within 24 hours, and you’ll receive a more detailed response to your email within 48 hours indicating the next steps in handling your report. If you would like, you can encrypt your report using our public key. This key is also On MIT’s keyserver and reproduced below.
+This email address receives a large amount of spam, so be sure to use a descriptive subject line to avoid having your report be missed. After the initial reply to your report, the security team will endeavor to keep you informed of the progress being made towards a fix and full announcement. As recommended by RFPolicy, these updates will be sent at least every five days. In reality, this is more likely to be every 24-48 hours.
+If you have not received a reply to your email within 48 hours, or have not heard from the security team for the past five days, there are a few steps you can take (in order):
+Contact both the security coordinators directly:
+Josh Stone
+Pietro Albini
+Post on the internals forums
+Please note that the discussion forums are public areas. When escalating in these venues, please do not discuss your issue. Simply say that you’re trying to get a hold of someone from the security team.
+security@rust-lang.orgにメールを送る
+情報開示方針
+Rustプロジェクトには5段階の情報開示プロセスがあります。
+セキュリティに関する報告を受け取ったら、その問題を担当する人を割り当てます。この担当者が修正とリリースプロセスを管理します。
+問題が確認されたら、影響を受ける全てのバージョンのリストを作成します。
+コードを精査し、潜在的な同様の問題を見つけます。
+メンテナンスされている全てのリリースに対して修正を用意します。これらの修正は、パブリックリポジトリにはコミットされず、開示があるまでローカルに置かれます。
+開示日に、Rustセキュリティメーリングリストにアナウンスのコピーが送信されます。そして、変更がパブリックリポジトリにプッシュされ、新しいビルドがrust-lang.orgにデプロイされます。メーリングリスト向けに通知されてから6時間以内に、アナウンスのコピーがRustブログで公開されます。
+このプロセスには、特に他のプロジェクトのメンテナとの調整が必要な場合には、時間がかかることもあります。可能な限り迅速に問題を修正するためにあらゆる努力を尽くしますが、開示が一貫した方法で行われることを保証するために、上記のリリースプロセスに従うことに重きを置いています。
+セキュリティアップデートの受信
+全てのセキュリティアナウンスメントを受け取るもっともよい方法はRustセキュリティアナウンスメントメーリングリストを購読することです（別の方法はrustlang-security-announcements+subscribe@googlegroups.comへメールを送ることです）。このメーリングリストの投稿数は非常に少なく、そして情報が解禁された瞬間、公的な通知を受信します。
+distros@openwallについては、Linuxディストリビューションがパッケージを更新できるように、情報が解禁される72時間前に脆弱性を公表します。
+プレーンテキストのPGP鍵
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1
+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
+u05l
+=SPB7
+-----END PGP PUBLIC KEY BLOCK-----
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？
+ポリシー - Rustプログラミング言語
+Rust
+インストール
+学ぶ
+Playground
+ツール
+ガバナンス
+コミュニティ
+ブログ
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+ポリシー
+このページはRustのポリシーに関するリンク集です。
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティに関する情報開示
+プライバシー通知
+お探しのものが見つかりませんでしたか？ご質問がありますか？どうぞご連絡ください！
+Rustリーダーシップカウンシルに連絡する
+ヘルプ
+ドキュメント
+Rust Forge （コントリビュータ向けドキュメント）
+ユーザーフォーラムで質問する
+言語
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+規約とポリシー
+行動規範
+ライセンス
+ロゴポリシーおよびメディアガイド
+セキュリティ開示
+プライバシー通知
+全てのポリシー
+ソーシャルメディア
+Rustチームによって管理されています。誤字を見つけましたか？修正を送ってください！
+以前のウェブサイトをお探しですか？

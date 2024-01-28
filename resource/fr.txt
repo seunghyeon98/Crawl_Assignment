@@ -1,0 +1,1635 @@
+Le langage de programmation Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Rust
+Un langage qui offre à tous le pouvoir  de construire des logiciels fiables et efficaces.
+Commencer
+Version 1.75.0
+Pourquoi Rust ?
+Performance
+Rust est terriblement rapide et économe en mémoire : sans environnement d'exécution, ni ramasse-miettes, il peut dynamiser des services à hautes performances, s'exécuter dans des systèmes embarqués, et s'intégrer facilement à d'autres langages.
+Fiabilité
+Le puissant système de typage et le modèle d’ownership de Rust garantissent la sécurité mémoire ainsi que la sécurité des threads — et vous permettent d'éliminer de nombreuses variétés de bugs dès la compilation.
+Productivité
+Rust dispose d'une excellente documentation, d'un compilateur bienveillant, avec des messages d'erreur utiles, et d'outils de premier ordre — un gestionnaire de paquet et de compilation intégré, divers éditeurs intelligents avec auto-complétion et analyse de type, un outil de mise en forme automatique et plus encore.
+Faites-le en Rust
+En 2018, la communauté Rust a décidé d'améliorer l'expérience de programmation dans divers domaines (voir la roadmap 2018). Pour ces domaines, vous pouvez trouver plusieurs crates de haute qualité et de très bons guides sur comment débuter.
+Ligne de commande
+Créez un outil en ligne de commande rapidement avec l'écosystème robuste de Rust.
+Rust vous aide à maintenir votre application en toute confiance et à la distribuer facilement.
+Outils de compilation
+WebAssembly
+Utilisez Rust pour décupler les capacités de votre JavaScript, un module à la fois. Publiez sur npm, empaquetez avec Webpack et vous êtes prêt·e.
+Écrire des Applications Web
+Réseau
+Performance prédictibles. Faible consommation de ressources. Fiable comme le roc.
+Rust est taillé pour les services réseau.
+Travailler sur des serveurs
+Embarqué
+Vous visez du matériel à faibles ressources ? Vous avez besoin d'un contrôle bas niveau sans renoncer aux avantages du haut niveau ? Rust est fait pour vous.
+Débuter avec l'embarqué
+Rust en production
+Des centaines d'entreprises, dans le monde entier, utilisent aujourd'hui Rust en production, pour des solutions rapides, multiplateformes et économes en ressources. Des logiciels connus et appréciés, comme Firefox, Dropbox, et Cloudflare, utilisent Rust.  De la startup à la multinationale, du système embarqué au service web à haute disponibilité, Rust est une excellente solution.
+Mon meilleur compliment envers Rust est qu'il est ennuyeux, et c'est un fantastique compliment.
+– Chris Dickinson, Ingénieur chez npm, Inc
+La documentation, l’outillage et la communauté sont tous géniaux — vous avez tous les outils pour réussir à écrire du code en Rust.
+– Antonio Verardi, Ingénieur Infrastructure
+En savoir plus
+S'impliquer
+Lire sur Rust
+Nous adorons la documentation ! Jetez un œil aux livres disponibles en ligne, ainsi que les articles clefs de blogs et guides utilisateurs.
+Lire le Book
+Regarder sur Rust
+La communauté Rust a une chaîne YouTube dédiée rassemblant une grande variété de présentations et de tutoriels.
+Regarder les vidéos
+Contribuer du code
+Rust est un véritable effort communautaire et nous accueillons les contributions : des amateurs aux professionnels, des débutants aux experts. Venez nous aider à rendre l'expérience Rust encore meilleure !
+Lire le guide de contribution
+Remerciements
+Rust n'existerait pas sans les généreuses contributions en temps, travail et en ressources de la part d'individus et d'entreprises. Nous sommes très reconnaissants de tout ce soutien !
+Individus
+Rust est un projet communautaire et doit énormément aux nombreuses contributions qu'il reçoit.
+Voir les contributeurs individuels
+Entreprises partenaires
+Le projet Rust profite d'infrastructures généreusement fournies par des entreprises donatrices.
+Voir les sponsors
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?
+Installer Rust — Le langage de programmation Rust
+Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Installer Rust
+Utiliser rustup (recommandé)
+Il semblerait que vous utilisez macOS, Linux ou un autre OS de type UNIX. Pour télécharger Rustup et installer Rust, exécutez la commande suivante dans votre terminal, puis suivez les instructions à l'écran.
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+It looks like you’re running Windows. To start using Rust, download the installer, then run the program and follow the onscreen instructions. You may need to install the Visual Studio C++ Build tools when prompted to do so. If you are not on Windows see "Other Installation Methods".
+Télécharger rustup-init.exe (32-bit)
+Télécharger  rustup-init.exe (64-bit)
+Sous-système Windows pour Linux
+Si vous êtes un utilisateur du sous-système Windows pour Linux, exécutez la commande suivante dans votre terminal, puis suivez les instructions à l'écran.
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+Rust fonctionne sur Windows, Linux, macOS, FreeBSD et NetBSD. Si vous êtes sur une de ces plateformes et voyez ceci, veuillez rapporter une erreur avec les valeur suivantes :
+navigator.platform:
+MacIntel
+navigator.appVersion:
+5.0 (Macintosh)
+Rapporter une erreur
+Pour installer Rust, si vous utilisez Unix,  exécutez la commande suivante dans votre terminal, puis suivez les instructions à l'écran.
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+Si vous êtes sous Windows, téléchargez et exécutez rustup‑init.exe, puis suivez les instructions à l'écran.
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+Si vous utilisez Windows, téléchargez et exécutez rustup‑init.exe, puis suivez les instructions à l'écran.
+Notes à propos de l'installation de Rust
+Commencer
+Si vous commencez avec Rust et que vous souhaitez une visite guidée, visitez la page commencer.
+Problématiques Windows
+Sous Windows, Rust requiert l'installation additionnelle des C++ build tools de Visual Studio 2013 ou supérieur. La façon la plus facile d'obtenir les build tools est d'installer Microsoft Visual C++ Build Tools 2019 qui fournit uniquement les build tools de Visual C++.
+Comme alternative, vous pouvez  installer
+Visual Studio 2019, Visual Studio 2017, Visual Studio 2015, ou Visual
+Studio 2013 en sélectionnant les "C++ tools" durant l’installation
+Pour plus d'informations sur la configuration de Rust sur Windows, visitez la
+documentation de rustup spécifique à Windows.
+Gestion des chaînes d'outils avec rustup
+Rust est installé et géré par l'outil rustup. Rust suit un
+processus de publication rapide
+avec une nouvelle version toutes les six semaines et il supporte un grand nombre de plateformes, donc il y a de nombreuses versions de Rust disponibles en même temps. rustup gère ces différentes versions de manière consistante sur toutes les plateformes supportées par Rust, permettant l'installation de Rust depuis les canaux beta et nightly ainsi que le support de cibles de cross-compilation supplémentaires.
+Si vous avez installé rustup dans le passé, vous pouvez mettre à jour votre installation en exécutant : rustup update.
+Pour plus d'information, visitez la
+documentation de rustup.
+Configuration de la variable d’environnement PATH
+Dans l’environnement de développement de Rust, tous les outils sont installés dans le répertoire
+~/.cargo/bin
+%USERPROFILE%\.cargo\bin
+et c'est là que vous trouverez la chaîne d'outils Rust incluant rustc, cargo, et rustup.
+Ainsi, il est de coutume pour les développeurs Rust d'inclure ce répertoire dans leur variable d’environnement PATH. Pendant l'installation rustup essaiera de configurer le PATH.
+À cause des différences entre les plateformes, les shells de commande, ou de problèmes de rustup, la modification de PATH pourrait ne prendre effet qu'après le redémarrage de la console, après que l'utilisateur soit déconnecté , ou ne pas fonctionner du tout.
+Si, après l'installation, exécuter la commande rustc --version dans la console échoue, c'est probablement la raison.
+Désinstaller Rust
+Si jamais vous voulez désinstaller Rust, vous pouvez exécuter
+rustup self uninstall.
+Mais vous nous manquerez !
+Autres méthodes d'installation
+L'installation décrite ci-dessus, via rustup, est la façon préférée d'installer Rust pour la majorité des développeurs. Cependant, Rust peut également être installé par d'autres méthodes.
+En apprendre plus
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?
+Apprendre Rust — Le langage de programmation Rust
+Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Apprendre Rust
+Commencer avec Rust
+Affectueusement surnommé le "Book", The Rust Programming Language vous donnera une vue d'ensemble du langage depuis ses premiers principes. Vous construirez quelques projets au long du chemin, et à la fin, vous aurez une solide compréhension du langage.
+Lire le Book !
+Lire la traduction non-officielle !
+Sinon, "Rustlings" vous guide au travers du téléchargement et de la mise en place de la chaîne d'outils de Rust, et vous apprend les bases de la lecture et de l'écriture de la syntaxe Rust, en ligne de commande. C'est une alternative à "Rust by Example" qui s’exécute  dans votre propre environnement.
+Faire le cours "Rustlings" !
+Si lire plusieurs centaines de pages à propos d'un langage n'est pas votre style, alors "Rust by Example" est fait pour vous. Alors que le "Book" parle du code avec beaucoup de mots, RBE montre beaucoup de code, et limite la discussion au minimum. Ça inclut aussi des exercices !
+Consulter Rust by Example !
+S'épanouir avec Rust
+Lire la documentation centrale
+Toute cette documentation est également disponible localement en utilisant la commande rustup doc, qui ouvrira ces ressources pour vous directement dans votre navigateur et même hors connexion !
+La bibliothèque standard
+Guide complet de l'API de la bibliothèque standard Rust.
+Guide des éditions
+Guide des éditions de Rust.
+Le Book (livre) de Cargo
+Un livre sur le gestionnaire de paquets et le système de compilation de Rust.
+Le Book de rustdoc
+Apprenez comment faire de fantastiques documentations pour votre crate (paquet).
+Le Book de rustc
+Familiarisez-vous avec les options du compilateur de Rust.
+Index des erreurs de compilation
+Explications détaillées des erreurs émises par le compilateur Rust.
+Développez vos compétences dans un domaine d’application
+Le Book de la ligne de commande
+Apprenez à construire en Rust des applications en ligne de commande efficaces.
+Le Book de WebAssembly
+Utilisez Rust pour construire des bibliothèques natives pour les navigateurs avec WebAssembly.
+Le Book de l'embarqué
+Devenez compétent avec Rust pour les microcontrôleurs et les autres systèmes embarqués.
+Maîtrisez Rust
+Curieux à propos des recoins les plus sombres du langage ? C'est ici que vous entrez dans les détails :
+La "Référence" n'est pas une spécification formelle, mais elle est plus détaillée et complète que le Book.
+Lire la référence
+Le Rustonomicon est votre guide dans les arts sombres du Rust unsafe. Il est parfois appelé "le ’nomicon" .
+Lire le ’nomicon.
+Le Unstable Book contient la documentation des fonctionnalités instables que vous pouvez seulement utiliser avec les versions nightly de Rust
+Lire le Unstable Book
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?
+Outils — Le langage de programmation Rust
+Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Outils
+Support des éditeurs de premier choix
+Que vous préfériez travailler avec du code depuis la ligne de commande, ou en utilisant un éditeur graphique riche, il y a une solution d'intégration disponible pour l'éditeur de votre choix. Ou bien vous pouvez bâtir la votre en utilisant le rust-analyzer.
+VS Code
+Sublime Text
+RustRover
+Eclipse
+Vim
+Emacs
+Visual Studio
+Apportez de la sérénité à vos builds
+Cargo est l'outil de build pour Rust. Il rassemble toutes les actions communes en une seule commande. Pas besoin de configuration verbeuse.
+Installer
+Avec des dizaines de milliers de packages, il y a de fortes chances que crates.io aie la solution que vous recherchez. Appuyez-vous sur les épaules des géants et faites passer votre équipe de la répétition à l’innovation.
+Tester
+Soyez confiant en votre code grâce aux excellents outils de test de Rust. cargo test est la solution unifiée de test pour Rust. Écrivez vos tests à coté de votre code, ou dans un fichier séparé : il fournit une solution à tous les types de tests.
+Déployer
+cargo build crée des binaires légers pour chaque plateforme. Avec une seule commande, votre code peut cibler Windows, Linux, Mac OS, et le web. Tout d'une interface moderne sans le besoin de fichiers de build spécialisés.
+La vitesse par l'automatisation
+Les outils Rust, de qualité industrielle, rendent la collaboration sans crainte, permettant aux équipes de se concentrer sur les taches importantes.
+Rustfmt
+Rustfmt formate le code Rust automatiquement, le rendant plus facile à lire, écrire et maintenir. Et plus important : vous ne débattrez plus jamais de l'espacement ou du positionnement des crochets.
+Aller au dépôt
+Clippy
+“It looks like you’re writing an Iterator.”  Clippy aide les développeurs de tous les niveaux d'expérience à écrire du code idiomatique et à forcer l'usage des standards.
+Aller au dépôt
+Cargo Doc
+Le constructeur de documentation de Cargo fait en sorte qu'aucune API reste non documentée. Il est disponible localement via cargo doc et en ligne pour les crates publiques via docs.rs.
+Aller sur le site
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?
+Gouvernance — Le langage de programmation Rust
+Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Gouvernance
+Comment Rust est construit par sa communauté
+Roadmap et processus des RFC
+Chaque décision majeure dans Rust commence avec une demande de commentaire, ou RFC. Tout le monde peut discuter de la proposition afin de comprendre l'ensemble des compromis. Bien que ce processus soit parfois pénible, ce débat au sein de la communauté fait la force du langage, et y apporte toute sa qualité.
+En savoir plus
+Équipes
+Leadership council
+Charged with the success of the Rust Project as whole, consisting of representatives from top-level teams
+Membres et contacts
+Compilateur
+Développer et maintenir la machinerie du compilateur et ses optimisations
+Membres et contacts
+crates.io
+Gestion des opérations, du développement et des politiques officielles de crates.io
+Membres et contacts
+Outils de développement
+Contributing to and creating the Rust development tools
+Membres et contacts
+Infrastructure
+Gérer l'infrastructure supportant le projet Rust, incluant l'intégration continue, la publication de nouvelles versions, les robots et les métriques.
+Membres et contacts
+Langage
+Concevoir et faciliter l'implémentation de nouvelles fonctionnalités pour le langage
+Membres et contacts
+Bibliothèques
+Développer et maintenir la bibliothèque standard de Rust, les crates officielles, les conventions de code et le support de l'écosystème
+Membres et contacts
+Modération
+Aider à faire respecter le code de conduite
+Membres et contacts
+Groupes de travail
+Async working group
+Pursuing core language and library support for async-await
+Membres et contacts
+Interfaces en ligne de commande (CLI)
+Concentrer nos efforts pour fournir une expérience complète d’écriture d’applications en ligne de commande en Rust, qu’il s’agisse de gros projets ou de plus modestes.
+Membres et contacts
+Matériel embarqué
+Améliorer l’expérience globale d’utilisation de Rust dans des environnements limités en ressources et sur des plateformes non-traditionnelles
+Membres et contacts
+Développement de jeux
+Faire de Rust le choix par défaut pour le développement de jeux.
+Membres et contacts
+Rust by Example working group
+Maintaining and updating the official Rust by Example book
+Membres et contacts
+Sécurité du code
+Faciliter l'écriture de code sécurisé en Rust
+Membres et contacts
+Intervention de sécurité
+Trier et répondre aux rapports de vulnérabilité
+Membres et contacts
+Triage
+Triage des dépôts de l'organisation rust-lang
+Membres et contacts
+WebAssembly (wasm)
+Améliorer l'expérience d'inclusion de code Rust dans les applications et bibliothèques JS avec WebAssembly
+Membres et contacts
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?
+Communauté — Le langage de programmation Rust
+Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Communauté
+Où discuter
+Forum des utilisateurs
+Le forum des utilisateurs est un endroit où les utilisateurs communiquent à propos de tout et n'importe quoi lié à Rust. Posez des questions ici, coordonnez des idées de projet; tout ce que vous souhaitez !
+Visiter le forum
+Forum interne
+Le forum interne est un endroit pour discuter à propos du développement de Rust lui-même – en incluant le travail sur le compilateur, la conception du langage et la bibliothèque standard.
+Visiter le forum
+Plateformes de discussions
+Le développement de Rust ainsi que les discussions générales ont lieu sur diverses plateformes de chat. Consultez le contenu des canaux généraux et plus sur le serveur Discord de Rust, ou jetez un œil à la page des équipes pour découvrir où elles se rencontrent.
+Discord
+Zulip
+En savoir plus sur les équipes
+Visiter le forum
+Visiter le forum
+Discord
+Zulip
+En savoir plus sur les équipes
+Où apprendre
+En lire plus sur Rust
+Le langage de programmation Rust a de nombreuses qualités, mais sa plus grande force réside dans sa communauté, qui rassemble nombre d’entre nous pour faire de Rust une expérience gratifiante.
+Restez au courant de la communauté Rust !
+This Week in Rust (Cette Semaine dans Rust)
+Rester en contact
+Nous aimerions avoir de vos nouvelles ! Pas sûr de savoir où et à qui poser une question ? Vous voulez participer mais n'êtes pas sûr de comment ? L'équipe communauté est impatiente de vous mettre en contact avec quelqu'un qui peut vous aider !
+email community@rust-lang.org
+This Week in Rust (Cette Semaine dans Rust)
+email community@rust-lang.org
+Événements
+Trouver une rencontre locale ou une conférence
+Il y a plus de 90 rencontres et plusieurs conférences de part le monde sur plus de 35 pays. Les Rustacés se rencontrent périodiquement dans les groupes d’utilisateurs Rust. Ce sont d'excellents moyens d'entrer dans la communauté et un excellent moyen d'apprendre et de socialiser avec des gens avec un intérêt commun. Les rencontres sont généralement informelles et ouvertes à tous.
+Voir le calendrier
+Consulter le programme des conférences 2020
+Organisez votre propre évènement
+Au fur et à mesure que Rust grandit, nous sommes ravis d'aider les gens à démarrer leurs propres évènement locaux.
+Des Hacks et leçons, aux rencontres, aux conférences, l’équipe évènement de Rust est prête a vous aider.
+Enregistrer votre évènement nous aide à garder la trace des efforts de notre communauté et nous permet de vous mettre en contact avec des présentateurs et d'autres membres autour de vous.
+Consulter le dépôt de l’équipe événement
+Enregistrez votre événement
+Rustbridge
+RustBridge est un atelier de travail visant à permettre aux personnes sous-représentées, avec une expérience dans d'autres langages de programmation, d'apprendre le Rust et de rejoindre la communauté.
+Consulter le dépôt de Rustbridge
+Les standards de la communauté
+Nous nous engageons à fournir un environnement amical, sûr et accueillant pour tous, quelque soit votre genre, orientation sexuelle, handicap, ethnie, religion ou autre caractéristique personnelle. Notre code de conduite définit les standards de comportement dans tous les forums Rust officiels.
+Si vous avez le sentiment que vous avez été ou êtes harcelé·e ou mis·e mal à l'aise par un membre de la communauté, veuillez contacter immédiatement n'importe quel membre de l’équipe de modération de Rust. Que vous soyez un contributeur régulier ou un débutant, nous tenons à ce que la communauté soit un endroit sûr pour tous.
+Écrire à l'équipe de modération
+lire le code de conduite
+lire les principes de modération
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?
+Commencer — Le langage de programmation Rust
+Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Commencer
+Configurez rapidement un environnement de développement Rust et écrivez une petite application !
+Installer Rust
+Vous pouvez essayer Rust en ligne dans le Rust Playground sans rien installer sur votre ordinateur.
+Essayer Rust sans l'installer
+Rustup : l'outil d'installation de Rust et gestionnaire de versions
+La principale façon d'installer Rust est au moyen d'un outil nommé Rustup, qui est un outil d'installation de Rust et un gestionnaire de versions.
+Il semblerait que vous utilisez macOS, Linux ou un autre OS de type UNIX. Pour télécharger Rustup et installer Rust, exécutez la commande suivante dans votre terminal, puis suivez les instructions à l'écran.
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+It looks like you’re running Windows. To start using Rust, download the installer, then run the program and follow the onscreen instructions. You may need to install the Visual Studio C++ Build tools when prompted to do so. If you are not on Windows see "Other Installation Methods".
+Télécharger rustup-init.exe (32-bit)
+Télécharger  rustup-init.exe (64-bit)
+Sous-système Windows pour Linux
+Si vous êtes un utilisateur du sous-système Windows pour Linux, exécutez la commande suivante dans votre terminal, puis suivez les instructions à l'écran.
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+Rust fonctionne sur Windows, Linux, macOS, FreeBSD et NetBSD. Si vous êtes sur une de ces plateformes et voyez ceci, veuillez rapporter une erreur avec les valeur suivantes :
+navigator.platform:
+MacIntel
+navigator.appVersion:
+5.0 (Macintosh)
+Rapporter une erreur
+Pour installer Rust, si vous utilisez Unix,  exécutez la commande suivante dans votre terminal, puis suivez les instructions à l'écran.
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+Si vous êtes sous Windows, téléchargez et exécutez rustup‑init.exe, puis suivez les instructions à l'écran.
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+Si vous utilisez Windows, téléchargez et exécutez rustup‑init.exe, puis suivez les instructions à l'écran.
+Est-ce que Rust est à jour ?
+Rust évolue souvent. Si vous avez installé Rustup il y a longtemps, il est possible que votre version de Rust ne soit plus à jour. Récupérez la dernière version via la commande rustup update.
+En savoir plus sur l'installation
+Cargo: l'outil de build et gestionnaire de paquets
+Quand vous installez Rustup, vous installez aussi la dernière version stable de l'outil de build et gestionnaire de paquets de Rust, connu sous le nom de Cargo. Cargo fait de nombreuses choses :
+construire votre projet avec cargo build
+exécuter votre projet avec cargo run
+tester votre projet avec cargo test
+construire la documentation de votre projet avec cargo doc
+publier une bibliothèque sur crates.io avec cargo publish
+Pour tester que vous avez bien Rust et Cargo installés, vous pouvez exécuter ceci dans le terminal de votre choix:
+cargo --version
+Lire le Book de Cargo
+Autres outils
+Rust est supporté dans de nombreux d'éditeurs:
+VS Code
+Sublime Text
+RustRover
+Eclipse
+Vim
+Emacs
+Visual Studio
+Générer un nouveau projet
+Écrivons une petite application avec notre nouvel environnement de développement Rust. Pour commencer, nous utiliserons Cargo pour créer un nouveau projet pour nous. Dans le terminal de votre choix exécutez :
+cargo new hello-rust
+Cela va générer un nouveau répertoire appelé hello-rustavec les fichiers suivants :
+hello-rust
+|- Cargo.toml
+|- src
+|- main.rs
+Cargo.toml est le fichier manifeste de Rust. C'est là que vous gardez les métadonnées pour votre projet, ainsi que les dépendances.
+src/main.rs est l'endroit où vous écrirez le code de notre application.
+cargo new génère pour nous un projet "Hello, world!". Nous pouvons exécuter ce programme en nous déplaçant dans le nouveau répertoire que nous avons créé et en exécutant ceci dans notre terminal :
+cargo run
+Vous devriez voir ceci dans votre terminal :
+$ cargo run
+Compiling hello-rust v0.1.0 (/Users/ag_dubs/rust/hello-rust)
+Finished dev [unoptimized + debuginfo] target(s) in 1.34s
+Running `target/debug/hello-rust`
+Hello, world!
+Ajouter des dépendances
+Ajoutons une dépendance à notre application. Vous pouvez trouver toutes sortes de bibliothèques sur crates.io, le registre de packages de Rust. En Rust nous faisons souvent référence aux packages avec le nom de "crate".
+Dans ce projet, nous utiliserons une crate nommée ferris-says.
+Dans notre fichier Cargo.toml nous ajouterons cette information (que nous avons obtenue sur la page web de la crate) :
+[dependencies]
+ferris-says = "0.3.1"
+Maintenant nous pouvons exécuter :
+cargo build
+...et Cargo installera nos dépendances pour nous.
+Vous constaterez qu'exécuter cette commande a créé un nouveau fichier pour nous, Cargo.lock. Ce fichier est un log des versions exactes des dépendances que l'on utilise localement.
+Pour utiliser cette dépendance, nous pouvons ouvrir main.rs, supprimer tout ce qui y est présent (ce n'est qu'un exemple), et y ajouter cette ligne:
+use ferris_says::say;
+Cette ligne signifie que nous pouvons maintenant utiliser la fonction say que la crate ferris-says exporte pour nous.
+Une petite application en Rust
+Maintenant écrivons une petite application avec notre nouvelle dépendance. Dans notre main.rs ajoutez le code suivant :
+use ferris_says::say; // from the previous step
+use std::io::{stdout, BufWriter};
+fn main() {
+let stdout = stdout();
+let message = String::from("Hello fellow Rustaceans!");
+let width = message.chars().count();
+let mut writer = BufWriter::new(stdout.lock());
+say(&message, width, &mut writer).unwrap();
+}
+Après avoir sauvegardé, nous pouvons exécuter notre application en tapant :
+cargo run
+Si tout s'est bien passé, vous devriez voir votre application afficher ceci à l'écran :
+__________________________
+< Hello fellow Rustaceans! >
+--------------------------
+\
+\
+_~^~^~_
+\) /  o o  \ (/
+'_   -   _'
+/ '-----' \
+En savoir plus !
+Vous êtes maintenant un Rustacé ! Bienvenue ! Nous sommes heureux de vous compter parmi nous. Quand vous serez prêt·e, faites un saut sur notre  page « Apprendre », où vous pourrez trouver beaucoup de livres qui vous aideront a continuer votre aventure en Rust.
+en savoir plus !
+Qui est ce crabe, Ferris ?
+Ferris est la mascotte non officielle de la communauté Rust. Beaucoup de programmeurs Rust s'appellent eux-mêmes "Rustacés", un jeu de mot avec  “crustacé.”  Ferris est un nom jouant avec l'adjectif , “ferreux,” étant donné que la rouille (Rust en anglais) se forme souvent sur le fer, cela semblait une origine amusante pour le nom de notre mascotte ! Vous pouvez trouver plus d'images de Ferris sur rustacean.net.
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?
+Ligne de commande — Le langage de programmation Rust
+Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Ligne de commande
+Pourquoi Rust ?
+Robuste et rapide
+Même si vous écrivez un script court et à usage unique, vous pouvez être assuré qu'il est rapide, facilement testable, et renvoie des informations utiles.
+Les garanties de Rust
+Distribution facile
+Compilez tout en un seul exécutable—vos utilisateurs n'ont pas besoin d'un environnement particulier ou de bibliothèques
+Comment livrer du code en Rust
+Configuration robuste
+Gestion simple des fichiers de configuration quelle que soit la plateforme. Rust gère pour vous les formats et les espaces de noms.
+Commencer à configurer
+Les docs ? C'est fait.
+Générez automatiquement la documentation de votre application. Regroupez simplement les fichiers générés et c'est prêt.
+En savoir plus
+Entrées/sorties
+En plus de parler aux humains, Rust a d'excellents outils pour vous aider à parler aux machines.
+Parlez aux machines
+Journalisation sur mesure
+Il est facile d'ajouter de la journalisation, et même encore plus facile de configurer ses différentes cibles avec différents styles.
+Journaliser, tracer, comprendre
+Une base de code maintenable
+Repérez les erreurs immédiatement
+Que faire si le ficher de configuration manque ou est corrompu ? Que faire si le contenu de cette variable d’environnement est vide ? Ces cas sont faciles à oublier ! Mais grâce à son approche de la gestion des erreurs et à la conception de sa bibliothèque, Rust attirera votre attention sur ces situations avant même que vous exécutiez votre programme.
+La gestion des erreurs de Rust
+Amélioration ultérieure facile
+Rust vous permet d'être flexible dans la manière d’organiser votre code. Commencez avec un seul fichier et, quand vous aurez besoin de plus de fonctionnalités, refactorisez votre application avec l’assurance que vous ne casserez rien.
+Refactorisation du code Rust
+Commencer !
+Écrire une application en ligne de commande est une bonne façon d'apprendre Rust.
+Définissez vos entrées
+use clap::Parser;
+/// Read some lines of a file
+#[derive(Debug, Parser)]
+struct Cli {
+/// Input file to read
+file: String,
+/// Number of lines to read
+#[structopt(short = 'n')]
+num: usize,
+}
+Écrivez votre outil
+use std::{error::Error, fs::read_to_string};
+fn main() -> Result<(), Box> {
+let args = Cli::parse();
+read_to_string(&args.file)?
+.lines()
+.take(args.num)
+.for_each(|line| println!("{}", line));
+Ok(())
+}
+En savoir plus avec le Livre de la ligne de commande
+Utilisation en production
+Une des raisons pour lesquelles nous avons aimé Rust est l'écosystème crates.io. [...] Il y a beaucoup d’infrastructures existantes de bonne qualité pour construire des interfaces en ligne de commande agréables.
+– Armin Ronacher,
+Rust at Sentry – PolyConf 2017
+Je n'ai aucun regret à travailler sur cette base de code. [...] C'était une sorte de bonus supplémentaire pour moi : utiliser Rust pour faire des interfaces en ligne de commande ou des outils console. Il est très pratique pour compiler vers différents systèmes.
+– Fletcher Nichol,
+Taking Rust to Production – RustFest Kyiv
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?
+WebAssembly — Le langage de programmation Rust
+Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Web­Assembly
+Pourquoi Rust ?
+Des performances prévisibles
+Pas d'interruption imprévisible à cause d’un ramasse-miettes. Pas de chute de performance liée à un compilateur JIT. Juste un contrôle de bas-niveau et un haut niveau d'ergonomie.
+Code succinct
+Un exécutable plus léger permet des chargements de page plus rapides. Les .wasm générés par Rust n’incluent rien de superflu, comme un ramasse-miettes. Des optimisations avancées ainsi que du tree shaking suppriment le code mort.
+Fonctionnalités modernes
+Un écosystème vivant de bibliothèques pour vous aider à démarrer sur les chapeaux de roue. Des abstractions expressives à coût zéro. Et une communauté accueillante pour vous aider à apprendre.
+Commencer !
+Apprenez-en plus sur la machine virtuelle rapide, sûre et ouverte appelée WebAssembly, et lisez sa référence.
+En savoir plus
+Apprenez à construire, déboguer, profiler et déployer des applications WebAssembly avec Rust.
+Lire le Livre
+En savoir plus sur WebAssembly en consultant Mozilla Developer Network.
+Jeter un œil
+Fonctionne bien avec JavaScript
+Améliorez, ne remplacez pas
+Le rêve de WebAssembly n'est pas d'éliminer JavaScript, mais de collaborer étroitement pour doper les calculs lourds ou les tâches de bas niveaux — tâches qui bénéficient de l'efficacité de Rust.
+Fonctionne avec les outils habituels
+Publiez des paquets WebAssembly en Rust dans des dépôts comme npm. Regroupez-les et distribuez-les avec webpack, Parcel et bien d’autres. Maintenez-les avec des outils comme npm audit et Greenkeeper.
+Interopérabilité sans accroc
+Générez automatiquement du code de liaison entre Rust, WebAssembly et l'API JavaScript. Tirez avantage de bibliothèques comme web-sys qui fournissent des associations prédéfinies avec l'intégralité de la plateforme web.
+Utilisation en production
+Nous pouvons compiler Rust en WASM, et l'exécuter depuis des fonctions Serverless embarquées dans le cœur même d’Internet. C'est incroyable et je suis impatient d'en faire encore plus.
+– Steven Pack, Serverless Rust with Cloudflare Workers
+L'implémentation JavaScript [de la bibliothèque source-map] avait accumulé du code alambiqué pour des raisons de performance, et nous l'avons remplacé par du code Rust idiomatique. Rust ne nous force pas à choisir entre exprimer clairement l'intention du programme et la performance.
+– Nick Fitzgerald, Oxidizing Source Maps with Rust and WebAssembly
+Les propriétés de [Rust] rendent facile l'intégration du codec DivANS dans une page web avec WASM, comme montré ci-dessus.
+– Daniel Reiter Horn et Jongmin Baek, Building Better Compression Together with DivANS
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?
+Réseau — Le langage de programmation Rust
+Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Réseau
+Pourquoi Rust ?
+Faible utilisation mémoire
+Prenez le contrôle de l’utilisation des ressources systèmes pour garder la consommation CPU et mémoire à un seuil minimal. Aidez-vous du compilateur pour vous assurer de faire les choses correctement. Et faites-le avec un écosystème qui est et productif, et agréable à utiliser.
+Sûr et fiable
+Le puissant contrôleur de type de Rust empêche toute une classe de bugs. Vous êtes sûr de savoir exactement quand et où les états sont partagés et modifiés. Vous êtes également assistés pour connaître les éventuels points d'erreur — avant le déploiement.
+Concurrent à grande échelle
+Utilisez n'importe quel mix d'approches concurrentes qui vous convient. Rust vous assurera que vous ne partagez pas par mégarde un état entre plusieurs threads ou tâches. Il vous donnera la capacité de tirer les performances jusqu'à la dernière goutte, sans risque.
+Commencer !
+Rust a un écosystème grandissant de bibliothèques faciles à utiliser pour le web. Voici deux exemples :
+Poster du JSON
+// This will POST a body of
+//     `{"lang": "rust", "body": "json"}`
+#[derive(Serialize)]
+struct Body<'a> {
+lang: &'a str,
+body: &'a str,
+}
+let client = reqwest::Client::new();
+let res = client.post("http://httpbin.org/post")
+.json(&Body {
+lang: "rust",
+body: "json",
+})
+.send()?;
+En apprendre plus sur reqwest
+Gérer un POST encodé en JSON
+#[derive(Deserialize)]
+struct Task { name: String, completed: bool }
+#[post("/", data = "<task>")]
+fn new(task: Json<Task>) -> Flash<Redirect> {
+if task.name.is_empty() {
+Flash::error(Redirect::to("/"),
+"Cannot be empty.")
+} else {
+Flash::success(Redirect::to("/"),
+"Task added.")
+}
+}
+En apprendre plus sur Rocket
+Utilisation en production
+Migrer notre infrastructure de connexion Push vers Rust nous a fourni un moyen plus facile de maintenir le code en se concentrant sur la justesse tout en fournissant des performances fantastiques. Nous pouvons maintenant, avec nos serveurs Rust, traiter jusqu'à 20 millions de connections à la fois aux heures de pic.
+– Benjamin Bangert, ingénieur opérations, Mozilla
+Rust est fondamental dans la feuille de route technologique du projet Linkerd . Son système de type nous permet de construire des unités modulaires, testables et composables sans sacrifier les performances à l’exécution.
+Ce qui a été le plus surprenant cependant, c'est comment les systèmes de borrowing et de durée de vie nous permettent d'éviter de grandes quantités de fuites de ressources. Après deux ans, Je ne peux vraiment plus imaginer utiliser aucun autre langage pour ce travail.
+– Oliver Gould, DSI, Buoyant
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?
+Matériel embarqué — Le langage de programmation Rust
+Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Matériel embarqué
+Pourquoi Rust ?
+Analyse statique puissante
+Assurez-vous du respect de la configuration des pins et du périphérique lors de la compilation. Garantissez que les ressources ne seront pas utilisées dans des parties de votre application où cela n'est pas prévu.
+En savoir plus
+Mémoire flexible
+L'allocation de mémoire dynamique est optionnelle. Utilisez un allocateur global et des structures de données dynamiques. Ou laissez complètement de côté le tas, et allouez tout de façon statique.
+En savoir plus
+Concurrence apaisée
+Rust rend impossible le partage accidentel d'un état entre deux threads. Qu’elle que soit l’approche concurrentielle que vous voulez utiliser, vous bénéficierez toujours des assurances fortes de Rust.
+En savoir plus
+Interopérabilité
+Intégrez Rust à votre base de code C existante ou tirez profit d’un SDK existant pour écrire une application Rust.
+En savoir plus
+Portabilité
+Écrivez une bibliothèque ou un driver une fois et utilisez-le dans différents systèmes, allant de tout petits microcontrôleurs à de puissants SBCs.
+En savoir plus
+Géré par la communauté
+Faisant partie intégrante de la communauté Rust open source, le support des systèmes embarqués est assuré par une communauté open source de premier choix.
+En savoir plus
+Présentation
+J'étais si excité quand je suis tombé sur Rust, de Mozilla. Rust est un nouveau langage de programmation avec pour slogan : "sûr, rapide ou concurrent ; choisissez-en trois". Il a également un avenir assuré avec une communauté forte et impliquée.
+– Jonathan Pallant, Consultant Senior, Cambridge Consultants
+Voir plus
+Pérenniser, avec Rust de Cambridge Consultants sur Vimeo.
+Commencer !
+Le Discovery Book
+Apprenez le développement embarqué à partir de zéro—en utilisant Rust!
+Lire
+Le Rust Book embarqué
+Déjà familier avec le développement embarqué ? Sautez dedans avec Rust et commencez à en tirer les bénéfices.
+Lire
+Le Embedonomicon
+Regardez sous le capot des bibliothèques fondatrices pour l'embarqué
+Lire
+Plus de documentation
+Utilisation en production
+À Sensirion nous avons récemment utilisé Rust pour créer un démonstrateur embarqué pour le Sensirion Particulate Matter Sensor. Grace à la cross-compilation facile et à la disponibilité de beaucoup de crates de haute qualité sur crate.io nous sommes arrivés très vite à un démonstrateur rapide et robuste.
+– Raphael Nestler, ingénieur logiciel, Sensirion
+À Airbone Engineering Ltd. nous avons récemment utilisé Rust pour écrire un bootloader Ethernet, blethrs, pour notre système d'acquisition maison. Rust est un langage prometteur et nous sommes enthousiastes pour l'utiliser sur nos futurs projets, embarqués ou autre.
+– Dr. Adam Greig, ingénieur instruments, Airborne Engineering Ltd.
+[Rust] nous permet de livrer du logiciel de manière plus rapide et plus correcte que nous croyions possible. Grâce à Rust, nous pouvons considérer la sécurité mémoire comme garantie, tandis que les autres bénéfices d'un langage avec un système de type complexe à zéro surcoût nous aident à développer un logiciel maintenable.
+Rust rend nos clients heureux, tout comme nos ingénieurs.
+– Marc Brinkmann, PDG, 49nord
+Nous pensons que c'est vraiment cool que nous puissions utiliser un langage agréable et moderne dans le domaine de l'embarqué où il n'y a habituellement aucune alternative au C/C++
+– Aleksei Arbuzov, ingénieur logiciel senior, Terminal Technologies
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?
+Production — Le langage de programmation Rust
+Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Production
+Livres blancs
+npm
+Lire comment npm, qui gère le registre du même nom, a trouvé Rust ennuyeux à déployer.
+Lire le livre blanc
+Tilde
+Apprendre comment Rust aide Tilde, les créateur de Skylight, à permettre un monitoring de performance, riche en fonctionnalités, des applications de leurs clients en utilisant un minimum de ressources.
+Lire le livre blanc
+Faits importants
+Dropbox
+Plusieurs composants du système central de stockage de fichiers de Dropbox ont été écrits en Rust en tant que partie d'un large projet visant une meilleure efficacité de leurs datacenters. Aujourd'hui, Ils sont utilisés par tous les stockages Dropbox, servant plus de 500 millions d'utilisateurs.
+En lire plus
+Yelp
+Yelp a développé un framework en Rust pour effectuer des tests A/B en temps réel. Il est utilisé par tous les sites web et applications Yelp et permet d'expérimenter des sujets allant de l'expérience utilisateur à l’infrastructure interne. Rust a été choisi car il est aussi rapide que le C (économique à exécuter) et plus sûr que le C (simple à maintenir).
+Regarder la vidéo
+Votre entreprise utilise Rust ? Songez à partager votre expérience avec nous !
+Contacter le Leadership Council
+Vous voulez savoir qui utilise Rust en production ?
+Consulter la page des utilisateurs
+Voir comment des entreprises utilisent les outils dans des domaines de développement spécifiques !
+Ligne de commande
+En savoir plus
+WebAssembly
+En savoir plus
+Réseau
+En savoir plus
+Embarqué
+En savoir plus
+Soutenir Rust
+Intéressé pour sponsoriser un travail sur Rust ? Une conférence Rust ? Nous adorerions que vous nous en parliez.
+Contacter le Leadership Council
+Licence
+Rust est distribué sous double licences : l’Apache License Version 2.0 et la MIT license, ce qui le rend adapté à toutes sortes de projets.
+Politiques des licences
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?
+Production — Le langage de programmation Rust
+Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Production
+Livres blancs
+npm
+Lire comment npm, qui gère le registre du même nom, a trouvé Rust ennuyeux à déployer.
+Lire le livre blanc
+Tilde
+Apprendre comment Rust aide Tilde, les créateur de Skylight, à permettre un monitoring de performance, riche en fonctionnalités, des applications de leurs clients en utilisant un minimum de ressources.
+Lire le livre blanc
+Faits importants
+Dropbox
+Plusieurs composants du système central de stockage de fichiers de Dropbox ont été écrits en Rust en tant que partie d'un large projet visant une meilleure efficacité de leurs datacenters. Aujourd'hui, Ils sont utilisés par tous les stockages Dropbox, servant plus de 500 millions d'utilisateurs.
+En lire plus
+Yelp
+Yelp a développé un framework en Rust pour effectuer des tests A/B en temps réel. Il est utilisé par tous les sites web et applications Yelp et permet d'expérimenter des sujets allant de l'expérience utilisateur à l’infrastructure interne. Rust a été choisi car il est aussi rapide que le C (économique à exécuter) et plus sûr que le C (simple à maintenir).
+Regarder la vidéo
+Votre entreprise utilise Rust ? Songez à partager votre expérience avec nous !
+Contacter le Leadership Council
+Vous voulez savoir qui utilise Rust en production ?
+Consulter la page des utilisateurs
+Voir comment des entreprises utilisent les outils dans des domaines de développement spécifiques !
+Ligne de commande
+En savoir plus
+WebAssembly
+En savoir plus
+Réseau
+En savoir plus
+Embarqué
+En savoir plus
+Soutenir Rust
+Intéressé pour sponsoriser un travail sur Rust ? Une conférence Rust ? Nous adorerions que vous nous en parliez.
+Contacter le Leadership Council
+Licence
+Rust est distribué sous double licences : l’Apache License Version 2.0 et la MIT license, ce qui le rend adapté à toutes sortes de projets.
+Politiques des licences
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?
+Apprendre Rust — Le langage de programmation Rust
+Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Apprendre Rust
+Commencer avec Rust
+Affectueusement surnommé le "Book", The Rust Programming Language vous donnera une vue d'ensemble du langage depuis ses premiers principes. Vous construirez quelques projets au long du chemin, et à la fin, vous aurez une solide compréhension du langage.
+Lire le Book !
+Lire la traduction non-officielle !
+Sinon, "Rustlings" vous guide au travers du téléchargement et de la mise en place de la chaîne d'outils de Rust, et vous apprend les bases de la lecture et de l'écriture de la syntaxe Rust, en ligne de commande. C'est une alternative à "Rust by Example" qui s’exécute  dans votre propre environnement.
+Faire le cours "Rustlings" !
+Si lire plusieurs centaines de pages à propos d'un langage n'est pas votre style, alors "Rust by Example" est fait pour vous. Alors que le "Book" parle du code avec beaucoup de mots, RBE montre beaucoup de code, et limite la discussion au minimum. Ça inclut aussi des exercices !
+Consulter Rust by Example !
+S'épanouir avec Rust
+Lire la documentation centrale
+Toute cette documentation est également disponible localement en utilisant la commande rustup doc, qui ouvrira ces ressources pour vous directement dans votre navigateur et même hors connexion !
+La bibliothèque standard
+Guide complet de l'API de la bibliothèque standard Rust.
+Guide des éditions
+Guide des éditions de Rust.
+Le Book (livre) de Cargo
+Un livre sur le gestionnaire de paquets et le système de compilation de Rust.
+Le Book de rustdoc
+Apprenez comment faire de fantastiques documentations pour votre crate (paquet).
+Le Book de rustc
+Familiarisez-vous avec les options du compilateur de Rust.
+Index des erreurs de compilation
+Explications détaillées des erreurs émises par le compilateur Rust.
+Développez vos compétences dans un domaine d’application
+Le Book de la ligne de commande
+Apprenez à construire en Rust des applications en ligne de commande efficaces.
+Le Book de WebAssembly
+Utilisez Rust pour construire des bibliothèques natives pour les navigateurs avec WebAssembly.
+Le Book de l'embarqué
+Devenez compétent avec Rust pour les microcontrôleurs et les autres systèmes embarqués.
+Maîtrisez Rust
+Curieux à propos des recoins les plus sombres du langage ? C'est ici que vous entrez dans les détails :
+La "Référence" n'est pas une spécification formelle, mais elle est plus détaillée et complète que le Book.
+Lire la référence
+Le Rustonomicon est votre guide dans les arts sombres du Rust unsafe. Il est parfois appelé "le ’nomicon" .
+Lire le ’nomicon.
+Le Unstable Book contient la documentation des fonctionnalités instables que vous pouvez seulement utiliser avec les versions nightly de Rust
+Lire le Unstable Book
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?
+Code de conduite — Le langage de programmation Rust
+Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Code de conduite
+Il est possible que cette politique soit traduite par des membres de la communauté Rust. Dans le cas d’un éventuel
+conflit entre la version anglaise et la
+traduction, la version anglaise fait foi.
+Comportement
+Nous nous engageons à mettre à disposition un environnement amical, sain et accueillant pour tous, sans distinction de niveau d'expérience, d'identité et d'expression de genre, d'orientation sexuelle, de handicap, d'apparence corporelle, de corpulence, de race, d'ethnie, d'âge, de religion, de nationalité ou de toute autre caractéristique similaire.
+Nous vous remercions d’éviter d'utiliser une identité ayant une quelconque connotation sexuelle ou autres pseudonymes qui pourraient écarter d'un environnement amical, sain et accueillant pour tous.
+Nous vous remercions aussi d’être gentil et courtois. Il n'y a pas besoin d'être méchant ou malpoli.
+Respectez le fait que les personnes ont des opinions différentes et que chaque choix de concept ou d'implémentation comporte de nombreux compromis et différents coûts. Il y a rarement une bonne réponse pour tout le monde.
+Veillez à éviter la critique non structurée dès que possible. Si vous avez de solides idées avec lesquelles expérimenter, faites un fork et voyez comment cela fonctionne.
+Nous vous exclurons des interactions si vous insultez, rabaissez ou harcelez quelqu'un. Ceci n'est pas un comportement toléré. Nous interprétons le terme harcèlement comme incluant la définition du Citizen Code of Conduct; si le concept de harcèlement ne vous paraît pas parfaitement clair, s'il vous plaît lisez cette définition. En particulier nous ne tolérons pas les comportements qui excluent les gens dans des groupes sociaux marginalisés.
+Le harcèlement privé est lui aussi inacceptable. Peu importe qui vous êtes, si vous avez le sentiment que vous avez été harcelé ou mis en situation inconfortable par un membre de la communauté, contactez immédiatement un des opérateurs du canal de discussion ou n'importe qui de la         L'équipe Rust de modération
+. Que vous soyez un contributeur régulier ou un nouveau, nous tenons à faire de la communauté un endroit sain, et nous sommes là pour vous aider.
+De même, les comportements comme le spam, le troll, l'injure, la provocation ou tout autre mécanisme de détournement d'attention ne sont pas les bienvenus.
+Écrire à l’équipe de modération
+Modération
+Ici se trouvent les politiques de maintien de nos standards de conduite communautaire. Si vous pensez qu’un fil nécessite une modération, contactez L'équipe Rust de modération.
+Les remarques qui enfreignent les standards de conduite de Rust, incluant les remarques haineuses, blessantes, oppressives ou excluantes ne sont pas autorisées. (Jurer est autorisé, mais jamais envers une autre personne, et jamais de façon haineuse.)
+Les remarques que la modération considère inappropriées, qu’elles soient listées dans le code de conduite ou pas, ne sont pas non plus autorisées.
+La modération répondra d’abord à ce genre de remarques par un avertissement.
+Si l’avertissement est ignoré, la personne sera « exclue », c.-à-d. éjectée du canal de communication pour se calmer.
+Si la personne revient et continue à causer des problèmes, elle sera bannie, c.-à-d. définitivement exclue.
+Les modérateurs peuvent choisir à leur discrétion de débannir une personne si c’était sa première infraction et qu’elle offre une véritable excuse à la personne offensée.
+Si un·e modérateur/trice bannit quelqu’un·e et vous pensez que c’est injustifié, adressez-vous à ce·tte modérateur/trice ou un·e autre, en privé. Les plaintes sur le canal à propos des bannissements ne sont pas autorisées.
+La modération est tenue à un plus haut standard que le reste des membres de la communauté. Si un·e modérateur/trice cause une situation inappropriée, moins de marge lui sera donnée que les autres.
+Dans la communauté Rust, nous nous efforçons de nous occuper les uns des autres. N’essayez pas simplement d’être techniquement irréprochable, essayez de faire au mieux. En particulier, évitez de jouer avec des sujet offensants ou sensibles, en particulier si c’est hors-sujet; cela mène trop souvent à des disputes inutiles, des sentiments heurtés et une confiance endommagée; pire, cela peut faire totalement partir des gens de la communauté.
+Et si une personne relève quelque chose que vous avez dit ou fait, ne soyez pas sur la défensive. Arrêtez simplement de faire ce qui vous a été reproché et excusez-vous. Même si vous pensez avoir été mal interprété ou accusé injustement, il y a probablement quelque chose que vous pourriez avoir mieux communiqué — rappelez-vous que c’est votre responsabilité de mettre à l’aise les autres Rustacé·e·s. Tout le monde veut bien s’entendre et nous sommes ici en premier lieu car nous voulons parler de technologie cool. Vous verrez que les gens accepteront votre bonne foi et vous pardonneront si vous faites en sorte de gagner leur confiance.
+Les règles d’application listées ci-dessus s’appliquent à tous les lieux officiels de Rust; incluant les canaux Discord (https://discord.gg/rust-lang); les dépôts GitHub sous rust-lang, rust-lang-nursery et rust-lang-deprecated; et tous les forums sous rust-lang.org (users.rust-lang.org, internals.rust-lang.org). Pour les autres projets adoptant le code de conduite Rust, contactez la maintenance de ces projets pour son application. Si vous souhaitez utiliser ce code de conduite pour votre propre projet, envisagez de mentionner explicitement votre politique de modération ou faites une copie avec votre propre politique de modération pour éviter toute confusion.
+Adapté de la Node.js Policy on Trolling ainsi que du Contributor Covenant v1.3.0.
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?
+Licences — Le langage de programmation Rust
+Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Licences
+Il est possible que cette politique soit traduite par des membres de la communauté Rust. Dans le cas d’un éventuel
+conflit entre la version anglaise et la
+traduction, la version anglaise fait foi.
+Licence
+Le langage Rust et tous les projets officiels, ce site web inclus, sont généralement sous double licence:
+Licence Apache, Version 2.0
+Licence MIT
+Les informations de licence spécifiques à chaque projet sont disponibles sur leur dépôt GitHub respectifs.
+Les logos des tierces parties peuvent être soumis à des marques déposées ou des copyrights tiers, et ne sont pas assujetties aux mêmes licences que le reste du site web.
+Pour toute question supplémentaire concernant la manière dont le projet Rust ou ses projets affiliés sont licenciés, veuillez contacter le Rust Leadership Council.
+Envoyer un email au Leadership Council
+Attribution
+Icônes créées par Freepik de www.flaticon.com, sous licence CC-3.0-BY
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?
+Politique de sécurité — Le langage de programmation Rust
+Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Politique de sécurité
+Il est possible que cette politique soit traduite par des membres de la communauté Rust. Dans le cas d’un éventuel
+conflit entre la version anglaise et la
+traduction, la version anglaise fait foi.
+Signaler
+email security@rust-lang.org
+Safety is one of the core principles of Rust, and to that end, we would like to ensure that Rust has a secure implementation. Thank you for taking the time to responsibly disclose any issues you find.
+All security bugs in the Rust distribution should be reported by email to security@rust-lang.org. This list is delivered to a small security team. Your email will be acknowledged within 24 hours, and you’ll receive a more detailed response to your email within 48 hours indicating the next steps in handling your report. If you would like, you can encrypt your report using our public key. This key is also On MIT’s keyserver and reproduced below.
+This email address receives a large amount of spam, so be sure to use a descriptive subject line to avoid having your report be missed. After the initial reply to your report, the security team will endeavor to keep you informed of the progress being made towards a fix and full announcement. As recommended by RFPolicy, these updates will be sent at least every five days. In reality, this is more likely to be every 24-48 hours.
+If you have not received a reply to your email within 48 hours, or have not heard from the security team for the past five days, there are a few steps you can take (in order):
+Contact both the security coordinators directly:
+Josh Stone
+Pietro Albini
+Post on the internals forums
+Please note that the discussion forums are public areas. When escalating in these venues, please do not discuss your issue. Simply say that you’re trying to get a hold of someone from the security team.
+email security@rust-lang.org
+Politique de divulgation
+Le projet Rust dispose d'un processus de divulgation en cinq étapes.
+Le rapport de sécurité est reçu et est affecté à un responsable. Cette personne coordonnera le processus de correction et de sa diffusion.
+Le problème est confirmé et la liste de l'ensemble des versions impactées est déterminée.
+Le code est audité afin de repérer potentiellement tout problème analogue.
+Des correctifs sont préparés pour toutes les versions qui sont encore maintenues. Ces correctifs ne sont pas transmis sur le dépôt public mais plutôt conservés de façon locale en attendant l'annonce.
+À la date d'embargo, la liste de diffusion d'annonces de sécurité reçoit une copie de l'annonce. Les modifications sont poussées sur le dépôt public et les nouvelles versions sont déployées sur rust-lang.org. D'ici 6 heures après cette première diffusion, une copie d'information est publiée sur le blog Rust.
+Ce processus peut prendre un certain temps, notamment lorsqu'il est nécessaire de coordonner différents mainteneurs impliqués sur d'autres projets. Tous les efforts seront faits afin de résoudre le bug de la façon la plus réactive possible, cependant il est important de respecter le processus de déploiement des versions ci-dessus afin de s'assurer que la divulgation est gérée de façon consistante.
+Recevoir des mises à jour de sécurité
+La meilleure façon de recevoir toutes les annonces de sécurité est de s'abonner à la liste de diffusion d'annonces de sécurité (ou alternativement en envoyant un mail à rustlang-security-announcements+subscribe@googlegroups.com). Cette liste de diffusion a un très faible trafic, et reçoit les notifications publiques dès que l'embargo est levé.
+Nous annoncerons les vulnérabilités 72 heures avant la levée de l'embargo sur distros@openwall, afin que les distributions Linux puissent mettre à jour leurs paquets.
+Clé PGP en texte brut
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1
+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
+u05l
+=SPB7
+-----END PGP PUBLIC KEY BLOCK-----
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?
+Règles — Le langage de programmation Rust
+Rust
+Installer
+Apprendre
+Bac à sable
+Outils
+Gouvernance
+Communauté
+Blog
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Règles
+Cette page vous amènera à la liste exhaustive des règles et politiques de Rust.
+Code de Conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Notices de sécurité
+Avis de confidentialité
+Vous n'avez pas trouvé ce que vous cherchiez ? Vous avez une question ? Contactez-nous !
+Envoyer un message au Rust Leadership Council
+Aidez-moi !
+Documentation
+Forge Rust (Documentation pour contributeur)
+Poser une question sur le forum utilisateurs
+Langue
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Conditions générales d'utilisation
+Code de conduite
+Licences
+Politique d'utilisation du logo et du contenu
+Avis de sécurité
+Avis de confidentialité
+Toutes Les Politiques
+Réseaux sociaux
+Maintenu par l’équipe de Rust. Vous avez trouvé une erreur ? Envoyez-nous une correction!
+Vous cherchez l'ancien site web ?

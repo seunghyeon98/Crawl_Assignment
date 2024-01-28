@@ -1,0 +1,1626 @@
+Rust 程式設計語言
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Rust
+讓每個人都能打造出可靠又高效軟體的程式語言
+立即開始
+版本 1.75.0
+為何選擇 Rust？
+高效能
+Rust 不僅速度驚人，而且節省記憶體。由於不需要執行時函式庫或垃圾回收機制，Rust 可以加速高效能需求的服務、執行在嵌入式裝置，並且輕鬆地與其他語言整合。
+可靠性
+Rust 豐富的型別系統與所有權模型確保了記憶體以及執行緒的安全，讓您在編譯時期就能夠解決各式各樣的錯誤。
+生產力
+Rust 擁有完整的技術文件、友善的編譯器與清晰的錯誤訊息，還整合了一流的工具 — 包含套件管理工具、建構工具、支援多種編輯器的自動補齊、型別檢測、自動格式化程式碼，以及更多等等。
+使用 Rust 建構
+在 2018 年，Rust 社群決定在不同領域中改善程式設計的體驗（詳見 2018 願景規劃）。以下您可以找到許多品質優良的 crate 以及一些超讚的入門教學。
+命令列
+立即使用 Rust 穩健的生態系統實作命令列工具，Rust 協助您安心維護且輕鬆發行應用程式。
+建置工具
+WebAssembly
+使用 Rust 逐一最佳化您的 JavaScript 模組， 發佈到 npm 並使用 webpack 包裝，您就能獲得速度超前的感受。
+編寫網頁應用程式
+網際網路
+可預期的效能、占用極少資源且堅若磐石般的可靠性，Rust 極為適合網路服務。
+在伺服器上運作
+嵌入式系統
+目標是資源匱乏的裝置？需要底層控制又不想失去高階語言的便利性？Rust 為您準備好了。
+從嵌入式系統開始
+正式環境中的 Rust
+現今全世界上百家公司企業為了尋求快速、節約資源而且能跨平台的解決辦法，都已在正式環境中使用 Rust。許多耳熟能詳且受歡迎的軟體，諸如 Firefox、Dropbox
+以及 Cloudflare
+都在使用 Rust。從新創公司到大型企業；從嵌入式裝置到可擴展的網路服務，Rust 完全適合。
+我對 Rust 最大的讚賞是它太無聊了，但這其實是令人讚嘆的表揚。
+– Chris Dickinson, 來自 npm, Inc 的工程師
+所有的技術文件、工具到社群都十分齊全，足以協助您成功編寫 Rust 程式專案。
+– Antonio Verardi, 系統架構師
+了解更多
+投入參與
+閱讀 Rust
+我們非常熱衷技術文件！歡迎翻閱線上提供的書籍，以及一些重要的網誌文章與使用者指南。
+閱讀學習資源
+觀賞 Rust
+Rust 社群有專屬的 YouTube 頻道，收集了大量的演講與教學。
+觀賞教學影片
+貢獻程式碼
+Rust 完全由社群驅動，我們十分歡迎志同道合的人與正式環境的使用者來參與貢獻。不管是剛加入新手或歷練豐富的專家，都歡迎協助我們讓 Rust 的體驗更加完善！
+閱讀貢獻指南
+鳴謝
+若沒有個人和企業慷慨貢獻時間、勞力和資源，Rust 將不會存在。我們非常感謝這些人的付出！
+個人貢獻者
+Rust 是個社群專案，也十分感謝收到許多來自社群的貢獻
+查看個人貢獻者
+企業法人贊助商
+Rust 專案收到來自這些企業贊助的基礎設施資源
+查看贊助商
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
+安裝 Rust - Rust 程式設計語言
+Rust
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+安裝 Rust
+使用 rustup (推薦)
+您的作業系統似乎是 macOS、Linux 或其他類 Unix 系統。請下載 Rustup 並安裝 Rust，然後在終端機執行以下指令，並遵循螢幕上的指示。
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+您似乎正在運行 Windows。欲使用 Rust，請下載安裝工具後，執行該程式並遵照螢幕上的指示。當看見相關提示時，您可能需要下載  Visual Studio C++ Build tools。若您並非使用 Windows，請參考「其他安裝方式」。
+下載 rustup-init.exe （32 位元）
+下載 rustup-init.exe （64 位元）
+Windows 的 Linux 子系統（WSL）
+如果您是 Windows 的 Liunx 子系統（WSL）使用者，要安裝 Rust，請在終端機執行以下指令，並遵循螢幕上的指示。
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+Rust 可以在 Windows、Linux、maxOS、FreeBSD 和 NetBSD 上運作。如果您在這些平台上，看到此訊息，請回報問題，並附上以下內容：
+navigator.platform:
+MacIntel
+navigator.appVersion:
+5.0 (Macintosh)
+回報問題
+如果您的作業系統是 Unix，要安裝 Rust， 請在終端機執行以下指令，並遵循螢幕上的指示。
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+如果您的電腦是 Windows 作業系統，請下載並執行 rustup‑init.exe ，然後遵循螢幕上的指示。
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+如果您的電腦是 Windows 作業系統，請下載並執行 rustup‑init.exe ，然後遵循螢幕上的指示。
+Rust 安裝須知
+新手入門
+如果您正要開始使用 Rust，需要一份更完整的教學，請見開始使用頁面。
+Windows 注意事項
+在 Windows 系統上，Rust 需要依賴 Visual Studio 2013 版本以上的 C++ 編譯及建構工具。要安裝這些工具，最簡便的方式是去微軟的官網下載並安裝：
+Microsoft Visual C++ Build Tools 2019
+這只提供 Visual C++ 編譯及建構工具。或者，您可以在安裝
+Visual Studio 2019、 Visual Studio 2017、Visual Studio 2015 或 Visual
+Studio 2013 時，選擇並安裝「C++ 工具集（C++ tools）」。
+有關更多關於在 Windows 系統上安裝 Rust 的資訊詳見
+Windows 專屬 rustup 文件。
+用 rustup 管理工具鏈
+rustup 是負責安裝及管理 Rust 的工具。Rust 以六星期為週期進行快速的版本發行，而且支援大量不同的平台，因此不論何時 Rust 都有許多不同的建構版本。rustup 在所有平台上用統一的方式管理這些不同版本，讓您可以同時安裝 beta 或 nightly 通道的 Rust 工具，或是進行跨平台編譯。
+如果您之前已經安裝過 rustup，您可以用 rustup update 指令來更新它。
+請參考
+rustup 文件 以取得更多資訊。
+設定 PATH 環境變數
+在 Rust 開發環境中，所有工具都安裝在
+~/.cargo/bin
+%USERPROFILE%\.cargo\bin
+目錄中。您也可以在這裡找到 Rust 工具鏈，包括 rustc、cargo 以及 rustup。
+因此，Rust 開發者通常會把這個目錄加入
+PATH 環境變數中。在安裝過程中 rustup 會試著幫你設定 PATH。
+因為不同平台與 shell 之間有差異，rustup 本身可能也有 bug，您可能要等重啟終端機或登出後，PATH 的設定才會生效，但也可能沒有成功設定。
+如果安裝後您無法正常在終端機執行 rustc --version，那應該就是上述原因。
+解除安裝 Rust
+若任何時候想解除安裝 Rust，你可以執行
+rustup self uninstall。
+我們會想念你的！
+其它安裝方式
+我們推薦大部份開發者，使用 rustup 並依照以上說明安裝 Rust，但您依然可以使用其他方式來安裝。
+了解更多
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
+學習 Rust - Rust 程式設計語言
+Rust
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+學習 Rust
+Rust 入門
+《Rust 程式設計語言》 常簡稱為「這本書」，它將從基礎概念開始帶給您這門語言的概觀。您將會在閱讀本書的過程中寫一些專案，並在最後扎實地掌握這門語言。
+開始閱讀！
+閱讀非官方翻譯！
+除此之外，Rustlings 課程會引導您下載並設置 Rust 的工具鏈，並在命令列上教您閱讀與編寫 Rust 的基本語法。它是除了《透過範例學習 Rust》之外，能在您自己的環境運行的另一種選擇。
+開始 Rustlings 的課程！
+如果閱讀一本數百頁的書並不適合您的話，那《透過範例學習 Rust》將是您的選擇。當書本使用一堆文字教學時，《透過範例學習 Rust》則是展示各種範例，並附上最少的文字說明，同時還附有練習題！
+閱讀《透過範例學習 Rust》！
+與 Rust 一同成長
+閱讀核心技術文件
+這些文件您都能在本機端使用 rustup doc 指令來取得，它能在沒有網路連線的狀況下使用您的瀏覽器開啟這些文件！
+標準函式庫
+詳盡的 Rust 標準函式庫 API 指南。
+版本指南
+Rust 版本指南。
+Cargo 手冊
+Rust 的套件管理與建置系統
+rustdoc 手冊
+學習如何為您的函式庫寫出一份漂亮的技術文件
+rustc 手冊
+讓您熟悉 Rust 編譯器可調整的選項。
+編譯錯誤索引
+詳細的介紹您編譯時可能會看到的錯誤訊息。
+在應用領域磨練您的技巧
+命令列手冊
+學習如何使用 Rust 建造高效的命令列程式。
+WebAssembly 手冊
+使用 Rust 建立瀏覽器原生的 WebAssembly 函式庫。
+嵌入式手冊
+在微處理器或其它嵌入式系統上精通 Rust。
+深入 Rust
+好奇 Rust 底層是如何運作的嗎？在這邊您可以找到這些基礎的細節：
+《參考手冊》不是正式的規格書，但是它比《Rust 程式設計語言》更加詳細與全面。
+閱讀《參考手冊》
+《Rust 祕笈》是教您 unsafe Rust 的黑魔法指南，它有時也被稱為「 ’nomicon」。
+閱讀《Rust 祕笈》
+《Unstable 手冊》紀載還尚未穩定的功能，您也只能在 nightly Rust 中使用。
+閱讀《Unstable 手冊》
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
+工具 - Rust 程式設計語言
+Rust
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+工具
+主流編輯器支援
+無論您喜歡使用命令列還是視覺化的編輯器，Rust 都有整合方案供您選擇。或者您也可以用 rust-analyzer 來打造您自己的工具。
+VS Code
+Sublime Text
+RustRover
+Eclipse
+Vim
+Emacs
+Visual Studio
+平穩的建構流程
+Cargo 是 Rust 的建構工具。它用一道指令整合了所有常用功能，無需額外工作。
+安裝
+crates.io 上面有成千上萬的套件，很可能早就有您正在尋找的解決方案。站在巨人的肩膀上，讓你的團隊拋下重複工作，專注創新。
+測試
+Rust 優秀的測試工具讓您可以對程式碼充滿信心。cargo test 是統一的 Rust 測試工具。您可以直接在程式碼內寫下測試，或是另外寫在獨立檔案中：它滿足您所有的測試需求。
+佈署
+cargo build 可為所有平台建構出小巧的執行檔。一道指令即可對應到 Windows、Linux 以及網頁平台。全部透過現代化的界面，不需再另外定製建構檔案。
+利用自動化加速開發
+Rust 工業級的工具讓團隊放心合作，專注在最重要的工作上。
+Rustfmt
+Rustfmt 可以自動格式化程式碼，讓它們更容易閱讀、編寫及維護。最重要的是：不用再爭論空格或大括號擺哪邊了。
+前往 repo
+Clippy
+「看起來您正在實作 Iterator」  Clippy 協助所有經驗不同的開發人員寫出符合慣例的程式碼，並且推行標準寫法。
+前往 repo
+Cargo Doc
+Cargo 的文件產生器讓所有的 API 都有對應的文件。您可以用 cargo doc 在本地端產生文件，或是在 docs.rs 看到線上文件。
+前往網站
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
+治理 - Rust 程式設計語言
+Rust
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+治理
+社群如何開發出 Rust
+願景規劃與 RFC 流程
+Rust 每項重要的決定都是從請求意見稿（RFC）開始的。每個人都可以參與提案的討論，衡量利弊來達成共識。雖然有時會遇到困難，但是這樣社群的審議正是維持 Rust 品質的秘訣。
+了解更多
+團隊
+Leadership council
+Charged with the success of the Rust Project as whole, consisting of representatives from top-level teams
+成員與聯絡方式
+編譯器團隊
+編譯器核心及最佳化
+成員與聯絡方式
+Crate.io 團隊
+管理 Crate.io 之運作、發展與政策
+成員與聯絡方式
+開發工具團隊
+負責 Rust 開發者工具
+成員與聯絡方式
+基礎架構團隊
+Rust 的基礎架構協助其專案自身的 CI、發佈、機器人和效能指標
+成員與聯絡方式
+語言團隊
+設計新的語言特性
+成員與聯絡方式
+函式庫團隊
+Rust 標準函式庫、rust-lang crates、慣例與生態系之支援
+成員與聯絡方式
+審核團隊
+協助維護行為準則
+成員與聯絡方式
+工作組
+Async working group
+Pursuing core language and library support for async-await
+成員與聯絡方式
+命令列界面（CLI）工作組
+專注於用 Rust 寫大型/小型 CLI 程式的端對端體驗
+成員與聯絡方式
+嵌入式系統工作組
+專注於在資源受限環境與傳統平台上使用 Rust 的端對端體驗
+成員與聯絡方式
+遊戲開發工作組
+專注於使 Rust 成為遊戲開發的默認選擇
+成員與聯絡方式
+Rust by Example working group
+Maintaining and updating the official Rust by Example book
+成員與聯絡方式
+安全程式碼工作組
+使 Rust 撰寫安全的程式碼變得容易
+成員與聯絡方式
+安全應對工作組
+針對收到的漏洞報告進行分類和回應
+成員與聯絡方式
+分流工作團隊
+在 Rust-lang 組織下分流程式碼倉庫
+成員與聯絡方式
+WebAssembly (WASM) 工作組
+專注於透過 WebAssembly 嵌入 Rust 程式碼到 JS 函式庫與應用程式的端對端體驗
+成員與聯絡方式
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
+社群 - Rust 程式設計語言
+Rust
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+社群
+交流區
+使用者論壇
+Rust 使用者論壇是供 Rust 使用者交流任何關於 Rust 資訊的地方。可以在這詢問、協作專案構想或任何您想做的事！
+前往論壇
+內部論壇
+Rust 的內部論壇是一個討論 Rust 本身的開發的地方；包含編譯器的運作以及其語言設計，和標準函式庫。
+前往論壇
+聊天室
+從閒聊、學習到 Rust 的開發都能在不同的聊天室討論。在 Rust Discord 的頻道查看「一般主題」或其他主題，或者查看「團隊」頁面來尋找適切的團隊。
+Discord
+Zulip
+更多團隊相關資訊
+前往論壇
+前往論壇
+Discord
+Zulip
+更多團隊相關資訊
+哪裡可以學習？
+一覽 Rust 大小事
+Rust 程式語言有許多優點，不過它最大的優勢是社群的人們致力於使 Rust 具有良好的使用體驗。
+持續追蹤 Rust 社群的動態！
+本週有關 Rust 的消息
+保持聯絡
+我們期待傾聽您的意見！不確定該向哪或向誰提問？想共同參與卻不知從何開始？Rust 社群團隊十分樂意為您聯繫上能幫助您的人！
+寄信至 community@rust-lang.org
+本週有關 Rust 的消息
+寄信至 community@rust-lang.org
+活動
+各地聚會或研討會
+在全球超過 35 個國家有超過 90 個聚會與數個研討會。Rust 愛好者們(Rustaceans) 會定期在 Rust 使用者群組聚會。這些活動可以幫助您進入社群、學習還有和同好交流，聚會通常是非正式的開放活動。
+查看行事曆
+2020 研討會時間表
+自己辦活動！
+隨著 Rust 的發展，我們樂於幫忙大家推動自己的地區性活動。從學習、實作、駭客、聚會以至研討會，Rust 活動團隊都已準備好為您提供支援。
+活動團隊 Repo
+登記您的活動
+Rustbridge
+RustBridge 是一個專注於促進擁有其他程式語言背景而未被關注的人們來學習 Rust 進而投入社群的工作坊。
+Rustbridge Repo
+社群規範
+對於所有性別、性傾向、生理心理條件、種族、信仰或任何相關特質的個人，我們皆致力於提供一個友善、安全、熱情友好的環境。我們的行為準則訂定了在所有 Rust 官方論壇的行為標準。
+聯繫審核團隊
+閱讀《行為標準》
+閱讀《審核準則》
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
+新手入門 - Rust 程式設計語言
+Rust
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+新手入門
+快速地設置 Rust 開發環境然後寫一支小程式！
+安裝 Rust
+您可以不用在電腦上安裝任何東西，先在 Rust Playground 線上試試 Rust。
+不用安裝直接嘗試使用 Rust
+Rustup：Rust 的安裝與版本管理工具
+安裝 Rust 的主要途徑是透過 Rustup 這個工具，它是 Rust 用於安裝與版本管理的工具。
+您的作業系統似乎是 macOS、Linux 或其他類 Unix 系統。請下載 Rustup 並安裝 Rust，然後在終端機執行以下指令，並遵循螢幕上的指示。
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+您似乎正在運行 Windows。欲使用 Rust，請下載安裝工具後，執行該程式並遵照螢幕上的指示。當看見相關提示時，您可能需要下載  Visual Studio C++ Build tools。若您並非使用 Windows，請參考「其他安裝方式」。
+下載 rustup-init.exe （32 位元）
+下載 rustup-init.exe （64 位元）
+Windows 的 Linux 子系統（WSL）
+如果您是 Windows 的 Liunx 子系統（WSL）使用者，要安裝 Rust，請在終端機執行以下指令，並遵循螢幕上的指示。
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+Rust 可以在 Windows、Linux、maxOS、FreeBSD 和 NetBSD 上運作。如果您在這些平台上，看到此訊息，請回報問題，並附上以下內容：
+navigator.platform:
+MacIntel
+navigator.appVersion:
+5.0 (Macintosh)
+回報問題
+如果您的作業系統是 Unix，要安裝 Rust， 請在終端機執行以下指令，並遵循螢幕上的指示。
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+如果您的電腦是 Windows 作業系統，請下載並執行 rustup‑init.exe ，然後遵循螢幕上的指示。
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+如果您的電腦是 Windows 作業系統，請下載並執行 rustup‑init.exe ，然後遵循螢幕上的指示。
+Rust 是最新版的嗎？
+Rust 時常更新，如果你在一段時間前安裝了 rustup ，有可能你的 Rust 版本已過時 ，執行 rustup update 以取得最新版的 Rust。
+了解更多關於安裝事項
+Cargo：Rust 的建置與套件管理工具
+當您在安裝 Rustup 時，您也將安裝最新穩定版本的 Rust 建置與套件管理工具，稱之為 Cargo。Cargo 能做非常多事情：
+cargo build 能建置您的專案
+cargo run 能執行您的專案
+cargo test 能測試您的專案
+cargo doc 能為您的專案產生技術文件
+cargo publish 能將函式庫發佈到 crates.io
+您可以在您喜好的終端機上輸入以下命令檢查 Rust 與 Cargo 是否有安裝：
+cargo --version
+閱讀《Cargo 手冊》
+其他工具
+Rust 支援非常多編輯器：
+VS Code
+Sublime Text
+RustRover
+Eclipse
+Vim
+Emacs
+Visual Studio
+產生新專案
+讓我們來用我們全新的 Rust 開發環境寫一支小小的應用程式吧。首先我們要先用 Cargo 產生一個新的專案。請在您的終端機執行：
+cargo new hello-rust
+這會產生一個新的目錄叫作 hello-rust 並包含以下檔案：
+hello-rust
+|- Cargo.toml
+|- src
+|- main.rs
+Cargo.toml 是 Rust 的 manifest 檔案，它是保存專案 metadata 與相依套件資訊的地方。
+src/main.rs 是我們要編寫程式碼的地方。
+cargo new 會為我們產生一個「Hello, world!」的專案！我們可以移動到這個新的目錄並在我們的終端機上執行：
+cargo run
+您應該會在終端機上看到以下訊息：
+$ cargo run
+Compiling hello-rust v0.1.0 (/Users/ag_dubs/rust/hello-rust)
+Finished dev [unoptimized + debuginfo] target(s) in 1.34s
+Running `target/debug/hello-rust`
+Hello, world!
+加入相依套件
+現在來為我們的應用程式加上相依套件吧。您可以在 Rust 的套件倉儲 crates.io 找到各式各樣的函式庫。在 Rust 中，我們稱套件為「crates」。
+在這個專案中，我們將使用一個叫作 ferris-says 的 crate。
+請在我們的 Cargo.toml 檔案加入以下資訊（我們可以從 crate 頁面上取得）：
+[dependencies]
+ferris-says = "0.3.1"
+這樣我們就能執行：
+cargo build
+...Cargo 會幫我們下載我們的相依套件。
+您會看到執行完此命令後產生了一個新的檔案 Cargo.lock。這個檔案會記錄我們本地端使用的相依套件確切版本。
+要使用此相依套件，我們可以開啟 main.rs，移除所有的程式碼（這些只是範例而已）然後加上這行：
+use ferris_says::say;
+這行表示我們現在可以使用 ferris-says crate 匯出的 say 函式。
+一支小小的 Rust 應用程式
+現在讓我們來用新的相依套件寫一支小小的應用程式。請在我們的 main.rs 新增以下程式碼：
+use ferris_says::say; // from the previous step
+use std::io::{stdout, BufWriter};
+fn main() {
+let stdout = stdout();
+let message = String::from("Hello fellow Rustaceans!");
+let width = message.chars().count();
+let mut writer = BufWriter::new(stdout.lock());
+say(&message, width, &mut writer).unwrap();
+}
+一旦儲存後，我們就可以輸入以下命令執行我們的應用程式：
+cargo run
+如果一切正常，您應該會看到您的應用程式顯示在螢幕上：
+__________________________
+< Hello fellow Rustaceans! >
+--------------------------
+\
+\
+_~^~^~_
+\) /  o o  \ (/
+'_   -   _'
+/ '-----' \
+了解更多！
+您現在也成為 Rustacean 的一員了！我們非常高興您的加入。當您準備好後，歡迎前往我們的學習頁面，您可以在那找到大量的書籍，能幫助您繼續您的 Rust 旅途。
+了解更多！
+這隻螃蟹是誰？Ferris？
+Ferris 是隻 Rust 社群非官方的吉祥物，許多 Rust 程式設計師會自稱「Rustaceans」，因為這和「crustacean」相似。我們指名 Ferris 會用代名詞「they」、「them」等等，而不是帶有性別的代名詞。
+Ferris 的名字近似於形容詞「ferrous」，含意與鐵有關。既然 Rust（銹）通常來自於鐵，我們認為這是個有趣的吉祥物名稱源由！
+您可以在 rustacean.net 找到更多 Ferris 的圖片。
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
+命令列應用程式 - Rust 程式設計語言
+Rust
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+命令列應用程式
+為何選擇 Rust？
+可靠且迅速
+就算只是要寫一個簡短的一次性腳本，您都可以確保它是快速、易於測試且能提供有用的輸出資訊。
+Rust 的保障
+容易發行
+將所有內容編譯成單一執行檔；您的使用者不必安裝運行時系統或函式庫。
+如何發佈 Rust 程式碼
+穩固的設置
+輕鬆處理跨平台的設置文件，Rust 就能為您處理命名空間與格式。
+開始設置
+協助手冊？輕鬆搞定。
+為您的應用程式自動產生手冊頁面，只要包裝好產生的檔案您就完成了。
+馬上了解
+資料進、資料出
+除了與人交流外，Rust 還有很棒的工具能幫助您與機器溝通。
+與機器溝通
+靈活的日誌紀錄
+要加入日誌紀錄是很方便的，而要設置到不同目標或不同格式之間也是相當簡單的。
+紀錄、追蹤、了解
+易於維護的程式碼
+馬上攔截錯誤
+如果設置文件遺失或損壞了呢？如果環境變數的內容有空的怎麼辦？這些狀況都很容易忘記！但有了錯誤處理與函式庫的設計，Rust 會在您運行您的程式之前就指出這些「假設」的情境。
+Rust 的錯誤處理
+方便後續擴展
+Rust 讓你能靈活地組織程式碼。從單一檔案開始，到當您需要更多功能而重構程式碼時，您都能確保不會破壞任何內容。
+重構 Rust
+立即開始！
+編寫命令列應用程式是個學習 Rust 的好方法
+定義輸入
+use clap::Parser;
+/// Read some lines of a file
+#[derive(Debug, Parser)]
+struct Cli {
+/// Input file to read
+file: String,
+/// Number of lines to read
+#[structopt(short = 'n')]
+num: usize,
+}
+編寫工具
+use std::{error::Error, fs::read_to_string};
+fn main() -> Result<(), Box> {
+let args = Cli::parse();
+read_to_string(&args.file)?
+.lines()
+.take(args.num)
+.for_each(|line| println!("{}", line));
+Ok(())
+}
+閱讀命令列指南了解更多
+產品應用
+我們喜歡 Rust 的原因之一是因為 crates.io 的生態系統。[...] 目前已經有很多非常棒的現有架構能來建構出漂亮的命令列介面。
+– Armin Ronacher,
+《Rust 在 Sentry 中的應用》 – PolyConf 2017
+我從沒後悔有這些函式庫。[…] 使用 Rust 製作 CLI 或是控制台的工具帶給我很大的好處，它非常善於針對不同目標系統進行編譯。
+– Fletcher Nichol,
+《把 Rust 帶進正式環境》 – RustFest Kyiv
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
+WebAssembly - Rust 程式設計語言
+Rust
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+Web­Assembly
+為何選擇 Rust？
+可預期的效能
+不會有未預期的垃圾蒐集導致的停頓。不會有即時編譯器（JIT compiler）的效能懸崖。正是將高人體工學與低階的操作完美搭配。
+少量的程式碼
+少量的程式碼意味著非常快的載入速度。Rust 所產生的 .wasm 不會包含額外的產物，例如垃圾回收器。更進階的優化和搖樹優化（tree-shaking）則可以減少無用的程式碼。
+時尚禮儀
+一個活躍的函式庫生態系將助您旗開得勝。Rust 擁有優秀表達能力、零成本抽象化和一個非常和善的社群來幫助您學習。
+立即開始！
+學習更多有關 WebAssembly 的快速、安全與開放虛擬機，以及瞭解它的標準。
+瞭解更多
+瞭解如何用 Rust 建構、除錯、檢驗效能和發佈 WebAssembly 應用程式！
+閱讀文件
+從 Mozilla 開發者網站來瞭解 WebAssembly 更多。
+立即查看
+與 JavaScript 極佳的相容性
+增強！不是取代！
+WebAssembly 的夢想不是為了扼殺 JavaScript 而是要共存，幫助非常繁重或底層的處理工作 — 因為 Rust 專注在效能而受益。
+使用熟悉的工具鏈來開發
+您可以發佈 Rust 的 WebAssembly 套件到 npm 這類的套件管理工具。使用 Webpack、Parcel 或其他工具來打包和發佈套件。並使用 npm audit 或 Greenkeeper 等工具來進行維護。
+無縫的互操作性
+自動化生成 Rust、WebAssembly 和 JavaScript 之間的 API 的綁定程式碼。充分利用 web-sys 之類的函式庫為整個 Web 平台提供事先打包好的绑定。
+產品應用
+我們可以用 Rust 程式碼編譯出 WASM，並呼叫與網路緊密交織的 Serverless 服務。WASM 的潛力無窮，我迫不及待地想要用它做更多的事情。
+– Steven Pack，《Serverless Rust 與 Cloudflare Workers》
+JavaScript 的 source-map 函式庫實現為了性能而累積的大量複雜程式碼，而我們將它替换成道地的 Rust 程式碼。Rust 不會強迫我們在明確表達意圖和運行時效能之間做出選擇。
+– Nick Fitzgerald, Oxidizing Source Maps with Rust and WebAssembly
+[Rust] 的特性讓我們能透過 WASM 可以輕鬆地將 DivANS 編碼器嵌入到網頁中。
+– Daniel Reiter Horn and Jongmin Baek，《用 DivANS 建造更好的壓縮》
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
+網路 - Rust 程式設計語言
+Rust
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+網路
+為何選擇 Rust？
+低資源消耗
+與這高生產力和良好的使用體驗的生態系一起，完全掌握資源的運用，並將 CPU 與記憶體的使用降至最低，同時讓編譯器幫助您檢查您做對了沒。
+安全與可靠
+Rust 強大的型別檢查器能預防各種錯誤，確保您了解程式的狀態是如何傳遞與改變，在佈署前就得以找出這些錯誤。
+規模化並行
+您可以使用任何適合您的並行方式， Rust 會確保您不會意外的在執行緒或任務間共享程式狀態，讓您無所畏懼地的榨乾最後一點效能。
+立即開始！
+Rust 有個日益茁壯的生態系與易於使用的網站函式庫，這邊有兩個範例：
+用 POST 送出一個 JSON
+// This will POST a body of
+//     `{"lang": "rust", "body": "json"}`
+#[derive(Serialize)]
+struct Body<'a> {
+lang: &'a str,
+body: &'a str,
+}
+let client = reqwest::Client::new();
+let res = client.post("http://httpbin.org/post")
+.json(&Body {
+lang: "rust",
+body: "json",
+})
+.send()?;
+了解更多關於 reqwest
+處理 POST 過來的 JSON 資料
+#[derive(Deserialize)]
+struct Task { name: String, completed: bool }
+#[post("/", data = "<task>")]
+fn new(task: Json<Task>) -> Flash<Redirect> {
+if task.name.is_empty() {
+Flash::error(Redirect::to("/"),
+"Cannot be empty.")
+} else {
+Flash::success(Redirect::to("/"),
+"Task added.")
+}
+}
+了解更多關於 Rocket
+產品應用
+將我們的 Push 的基礎設施遷移至 Rust 使我們能夠更輕鬆地維護程式碼，注重在正確性上的同時亦能提供出色的性能，處於尖峰時的系統能在一小時間處理高達兩千萬個 websocket 連線。
+– Benjamin Bangert, Staff Engineer, Mozilla
+Rust 是 Linkerd 專案的基礎，它的型態系統讓我們得以建造模組化、可測試且易於組合的元件，同時不會犧牲執行時的效能。最讓我們訝異的是 Rust 的 lifetime 與 borrow 機制，它讓我們避免了大量的資源洩露問題。在這兩年後，我無法想像要如何使用其它語言來完成這個工作。
+– Oliver Gould, CTO, Buoyant
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
+嵌入式裝置 - Rust 程式設計語言
+Rust
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+嵌入式裝置
+為何選擇 Rust？
+強大的靜態分析
+腳位與週邊設備的配置在編譯時便完成了，確保資源不會被您的應用程式中非預期的部分使用。
+了解更多
+靈活的記憶體管理
+動態記憶體配置是選擇性的，您可以使用全域分配器與動態資料結構，或者不用堆積並完全使用靜態分配。
+了解更多
+無畏並行
+Rust 讓執行緒之間不可能意外分享狀態。無論您使用哪種並行手段，您都能獲得 Rust 有力的保障。
+了解更多
+互操作性
+Rust 能整合進 C 的程式碼中，也可以使用現有的 SDK 編寫 Rust 應用程式。
+了解更多
+可移植性
+只要編寫函式庫或驅動程式一次，就能在各種不同的系統中使用，從微小的單晶片到強力的 SBC 都行。
+了解更多
+社群驅動
+作為 Rust 開源專案的一部份，我們有一流的開源社群與商業夥伴進行嵌入式系統的支援。
+了解更多
+應用展示
+「當我看見 Mozilla 的 Rust 時我非常興奮，Rust 是一門全新的程式設計語言，標榜著『安全、迅速、並行 – 三者兼顧』。有著強力且十分投入的社群，Rust 的未來十分光明。」
+– Jonathan Pallant, 資深顧問, Cambridge Consultants
+查看更多
+《Securing the future, with Rust》 由 Cambridge Consultants 在 Vimeo 平台上傳。
+立即開始！
+《Discovery》入門書籍
+從零開始的 Rust 嵌入式開發學習體驗！
+閱讀
+《The Embedded Rust book》
+已經熟悉嵌入式系統開發了嗎？立刻使用 Rust 並感受帶來的優勢。
+閱讀
+《The Embedonomicon》
+深入研究嵌入式底層函式庫。
+閱讀
+更多文件
+產品應用
+我們最近在 Sensirion 使用 Rust 為 Sensirion 的顆粒物質感測器做出了一個嵌入式樣品裝置。因為有了簡單的交叉編譯與許多 crates.io  上品質優良的 crate，我們非常快就完成了既快就穩固的樣品。
+– Raphael Nestler, 軟體工程師, Sensirion
+我們最近在 Airborne Engineering Ltd. 使用 Rust 為我們的內部資料收集系統編寫一個以太網路的啟動程式 blethrs。Rust 是一門非常有展望的語言，我們很期待能使用它於我們未來的專案，無論是嵌入式抑或是其他。
+– Dr. Adam Greig, 儀控系統工程師, Airborne Engineering Ltd.
+[Rust] 讓我們能比想像中更快速且更正確地推出軟體產品。感謝 Rust 讓我們可以視記憶體安全為理所當然，同時獲得零開銷語言與其複雜型態系統帶來的好處，這些協助了我們開發好維護的軟體。Rust 讓我們的客戶很開心，而且連我們的工程師也開心。
+– Marc Brinkmann, CEO, 49nord
+我們認為能夠在嵌入式領域中使用現代優秀的程式語言是件非常棒的事，以往通常沒有其他的選擇只有 C/C++
+– Aleksei Arbuzov, 資深軟體工程師, Terminal Technologies
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
+正式環境 - Rust 程式設計語言
+Rust
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+正式環境
+白皮書
+npm
+閱讀npm（他們營運著同名的 JavaScript Registry）《部署 Rust 應用是多麼無聊的體驗》。
+閱讀白皮書
+Tilde
+了解更多 Rust 如何幫助Tilde（Skylight的製造商）用最小的資源提供客戶端的應用程式更豐富的效能監控。
+閱讀白皮書
+焦點關注
+Dropbox
+為了追求更高的資料中效率，Dropbox 核心文件儲存系統的多個模組都是用 Rust 寫的。目前， Rust 應用於 Dropbox 所有的儲存系統，為超過五億的使用者服務。
+閱讀更多
+Yelp
+Yelp 使用 Rust 開發一個即時的 A/B 測試框架。 他廣泛應用在所有 Yelp 的網頁與應用，選擇 Rust 的原因是它和 C 語言一樣快（執行的消耗的資源較少），但比 C 語言要更安全（並易於維護）。
+觀看影片
+您的公司在使用 Rust 嗎？可以考慮把您的經驗分享給我們！
+聯繫 Leadership Council
+想了解更多在正式環境使用 Rust 的開發者嗎？
+查看使用者清單
+了解公司如何在專門的開發領域中使用工具！
+命令列
+了解更多
+WebAssembly
+了解更多
+網際網路
+了解更多
+嵌入式系統
+了解更多
+支持 Rust
+有興趣贊助 Rust 的工作嗎？或 Rust 研討會？我們很樂意聽取您的意見。
+聯絡 Leadership Council
+授權條款
+Rust 使用 Apache 2.0 授權條款和 MIT 授權條款，適用於各類型的專案。
+政策：授權條款
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
+正式環境 - Rust 程式設計語言
+Rust
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+正式環境
+白皮書
+npm
+閱讀npm（他們營運著同名的 JavaScript Registry）《部署 Rust 應用是多麼無聊的體驗》。
+閱讀白皮書
+Tilde
+了解更多 Rust 如何幫助Tilde（Skylight的製造商）用最小的資源提供客戶端的應用程式更豐富的效能監控。
+閱讀白皮書
+焦點關注
+Dropbox
+為了追求更高的資料中效率，Dropbox 核心文件儲存系統的多個模組都是用 Rust 寫的。目前， Rust 應用於 Dropbox 所有的儲存系統，為超過五億的使用者服務。
+閱讀更多
+Yelp
+Yelp 使用 Rust 開發一個即時的 A/B 測試框架。 他廣泛應用在所有 Yelp 的網頁與應用，選擇 Rust 的原因是它和 C 語言一樣快（執行的消耗的資源較少），但比 C 語言要更安全（並易於維護）。
+觀看影片
+您的公司在使用 Rust 嗎？可以考慮把您的經驗分享給我們！
+聯繫 Leadership Council
+想了解更多在正式環境使用 Rust 的開發者嗎？
+查看使用者清單
+了解公司如何在專門的開發領域中使用工具！
+命令列
+了解更多
+WebAssembly
+了解更多
+網際網路
+了解更多
+嵌入式系統
+了解更多
+支持 Rust
+有興趣贊助 Rust 的工作嗎？或 Rust 研討會？我們很樂意聽取您的意見。
+聯絡 Leadership Council
+授權條款
+Rust 使用 Apache 2.0 授權條款和 MIT 授權條款，適用於各類型的專案。
+政策：授權條款
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
+學習 Rust - Rust 程式設計語言
+Rust
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+學習 Rust
+Rust 入門
+《Rust 程式設計語言》 常簡稱為「這本書」，它將從基礎概念開始帶給您這門語言的概觀。您將會在閱讀本書的過程中寫一些專案，並在最後扎實地掌握這門語言。
+開始閱讀！
+閱讀非官方翻譯！
+除此之外，Rustlings 課程會引導您下載並設置 Rust 的工具鏈，並在命令列上教您閱讀與編寫 Rust 的基本語法。它是除了《透過範例學習 Rust》之外，能在您自己的環境運行的另一種選擇。
+開始 Rustlings 的課程！
+如果閱讀一本數百頁的書並不適合您的話，那《透過範例學習 Rust》將是您的選擇。當書本使用一堆文字教學時，《透過範例學習 Rust》則是展示各種範例，並附上最少的文字說明，同時還附有練習題！
+閱讀《透過範例學習 Rust》！
+與 Rust 一同成長
+閱讀核心技術文件
+這些文件您都能在本機端使用 rustup doc 指令來取得，它能在沒有網路連線的狀況下使用您的瀏覽器開啟這些文件！
+標準函式庫
+詳盡的 Rust 標準函式庫 API 指南。
+版本指南
+Rust 版本指南。
+Cargo 手冊
+Rust 的套件管理與建置系統
+rustdoc 手冊
+學習如何為您的函式庫寫出一份漂亮的技術文件
+rustc 手冊
+讓您熟悉 Rust 編譯器可調整的選項。
+編譯錯誤索引
+詳細的介紹您編譯時可能會看到的錯誤訊息。
+在應用領域磨練您的技巧
+命令列手冊
+學習如何使用 Rust 建造高效的命令列程式。
+WebAssembly 手冊
+使用 Rust 建立瀏覽器原生的 WebAssembly 函式庫。
+嵌入式手冊
+在微處理器或其它嵌入式系統上精通 Rust。
+深入 Rust
+好奇 Rust 底層是如何運作的嗎？在這邊您可以找到這些基礎的細節：
+《參考手冊》不是正式的規格書，但是它比《Rust 程式設計語言》更加詳細與全面。
+閱讀《參考手冊》
+《Rust 祕笈》是教您 unsafe Rust 的黑魔法指南，它有時也被稱為「 ’nomicon」。
+閱讀《Rust 祕笈》
+《Unstable 手冊》紀載還尚未穩定的功能，您也只能在 nightly Rust 中使用。
+閱讀《Unstable 手冊》
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
+行為準則 - Rust 程式設計語言
+Rust
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+行為準則
+本政策可能是 Rust 社群成員所翻譯。若翻譯版本有任何與英文版本衝突之處，以英文版本為依歸。
+行為
+我們致力於為所有人提供友好、安全和熱情的環境，無論其經驗水平、性別認同和表達、性取向、殘疾、個人形象、體型、種族、民族、年齡、宗教、國籍或其他類似的特徵。
+請避免使用可能會影響所有人友好、安全和友好環境的明顯性別名或其他暱稱。
+請保持善良和禮貌。沒有必要表現出卑鄙或粗魯。
+尊重人們的意見分歧。每個設計或實施選擇都會帶來權衡和眾多成本，很少有正確的答案。
+請將非結構化評論保持在最低限度。如果你有想要試驗的可靠想法，請做一個分支，驗證它的執行結果。
+如果你侮辱、貶低或騷擾任何人，這是不受歡迎的行為，我們會將你排除在外。我們將「騷擾」一一詞解釋為包含 Citizen 行為準則中的定義；如果您對該概念中的內容不清楚，請閱讀其定義。特別是，我們不容忍將社會邊緣化的群體排除在外的行為。
+私人騷擾也不被接受。無論您是誰，如果您認為自己曾經或正在受到社區成員的騷擾或不安，請立即聯繫其中一個群組管理員或任何        Rust 審核團隊
+的成員。無論您是固定的貢獻者還是新人，我們都非常關心如何讓這個社區成為一個安全的地方，我們將支持你。
+同樣地，任何垃圾郵件、惡意挑性釁、網路論戰、釣魚或其他破壞注意力的行為都不受歡迎。
+寄信至審核團隊
+審核
+這些是維護社群行為準則的政策。如果您覺得某個主題需要審，請聯繫Rust 審核團隊。
+不允許違反 Rust 行為標準的言論，包括仇恨、傷害、壓迫或排他性言論。（允許咒罵，但絕不能是針對用戶，也絕不能去記恨。）
+審查人員認為不合適的言論，不論是否列在行為準則中，都不被允許。
+審查人員將首先回復此類言論並發出警告。
+如果警告被忽視，該使用者將被「踢」出溝通群組來冷靜一下。
+如果使用者回來後繼續製造麻煩，他們將被封鎖，即被無限期排除。
+審查人員可酌情選擇取消封鎖，如果他是初犯且為被冒犯的一方致上真誠的道歉。
+如果您認為審查人員封鎖某人不合理，請與該審查人員或其他審查人員私下討論。在群組內抱怨是不允許的。
+審查人員的行為準則高於其他社群成員。如果審查人員造成不適當的行為，他們迴旋餘地將比一般人還少。
+在 Rust 社群，我們努力多付出一些，互相照顧。不要只關注在技術上無懈可擊，盡量做好您自己。特別是避免陷入攻擊性或被敏感性問題糾纏。尤其是當別人偏離主題時，這通常會導致不必要的鬥爭、傷害情感、損害信任，更糟糕的是，這些事情會讓人們離開社群。
+如果有人對您所說或做過的事情提出異議，不要急於自衛，先停止做他們抱怨的事情並道歉。即使您覺得自己被誤解或受到不公平的指控，也很有可能會有更好的溝通方式——請記住，讓您的 Rustaceans 同伴感到舒適是您的責任。每個人都希望好好相處，我們來這裡最初和最根本的目的是想談論很酷的技術。您會發現，只要您贏得他們的信任，人們就會積極地表現出善意和寬恕。
+上述執行政策強制適用於所有 Rust 官方場所；包括 Discord 頻道（https://discord.gg/rust-lang）、rust-lang、rust-lang-nursery 和 rust-lang-deprecated 的 Github repository、rust-lang.org（users.rust-lang.org、internals.rust-lang.org）的所有論壇。對於採用 Rust 行為準則的其他專案，請聯繫這些專案的維護人員以便執行此公約。如果您希望將此行為準則用於您自己的專案，請考慮明確提出您的審查政策或使用您自己的審查政策的改編副本，以避免混淆。
+改編自《Node.js 關於惡意破壞的政策》以及《 貢獻者公約 v1.3.0 》。
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
+授權條款 - Rust 程式設計語言
+Rust
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+授權條款
+本政策可能是 Rust 社群成員所翻譯。若翻譯版本有任何與英文版本衝突之處，以英文版本為依歸。
+授權條款
+包含此網站，Rust 程式設計語言與其他所有官方專案都採用雙重授權條款：
+Apache 版本 2.0 授權條款
+MIT 授權條款
+每個專案的特定授權資訊可於各自的 Github Repository 找到。
+第三方標誌可能受到第三方版權與商標約束，而不適用於 Rust 網站其他內容的授權條款。
+如果您對於 Rust 專案或其相關專案的授權條款有疑問，請聯繫 Rust Leadership Council。
+寄信至 Leadership Council
+屬性
+圖標來自於 Freepik from www.flaticon.com，遵循 CC-3.0-BY 授權條款
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
+安全政策 - Rust 程式設計語言
+Rust
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+安全政策
+本政策可能是 Rust 社群成員所翻譯。若翻譯版本有任何與英文版本衝突之處，以英文版本為依歸。
+回報漏洞
+寄送 Email 給 security@rust-lang.org
+Safety is one of the core principles of Rust, and to that end, we would like to ensure that Rust has a secure implementation. Thank you for taking the time to responsibly disclose any issues you find.
+All security bugs in the Rust distribution should be reported by email to security@rust-lang.org. This list is delivered to a small security team. Your email will be acknowledged within 24 hours, and you’ll receive a more detailed response to your email within 48 hours indicating the next steps in handling your report. If you would like, you can encrypt your report using our public key. This key is also On MIT’s keyserver and reproduced below.
+This email address receives a large amount of spam, so be sure to use a descriptive subject line to avoid having your report be missed. After the initial reply to your report, the security team will endeavor to keep you informed of the progress being made towards a fix and full announcement. As recommended by RFPolicy, these updates will be sent at least every five days. In reality, this is more likely to be every 24-48 hours.
+If you have not received a reply to your email within 48 hours, or have not heard from the security team for the past five days, there are a few steps you can take (in order):
+Contact both the security coordinators directly:
+Josh Stone
+Pietro Albini
+Post on the internals forums
+Please note that the discussion forums are public areas. When escalating in these venues, please do not discuss your issue. Simply say that you’re trying to get a hold of someone from the security team.
+寄送 Email 給 security@rust-lang.org
+資訊揭露政策
+Rust 專案有五步處理漏洞的流程
+收到一個安全報告後會指派一個主要處理者，由此人負責協調修復漏洞與發怖安全版本的流程
+確認問題並列出所有受其影響的版本
+審核程式碼以找出任何潛在問題
+對所有仍在維護的發行版本進行修復，這些修復不會推送到公共 repository，而是保留在本地，等待發怖
+過封鎖期後Rust 安全公告郵件列表將發布一份公告副本。這些更改會提交至公共 repository，新的程序會部署至 rust-lang.org。在收到郵件列表通知的 6 小時內，Rust blog 將發怖該通報的副本。
+這些流程可能會花費不少時間，特別是需要和其他專案的維護者協調的時候。我们將進一切努力即時處理錯誤，但我們仍要遵照以上的流程來確保以一致的方式處理漏洞
+接受安全更新
+接收所有安全公告的最好方式是訂閱 Rust 安全公告郵件列表（或是發送電子郵件至 rustlang-security-announcements+subscribe@googlegroups.com ）。郵件列表的信件量很少，在解禁後會立即收到公眾通知。
+我們會在解禁前 72 小時內向 distros@openwall 公佈漏洞，以便 Linux 發行版去更新套件。
+明文 PGP 公鑰
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1
+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
+u05l
+=SPB7
+-----END PGP PUBLIC KEY BLOCK-----
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
+政策 - Rust 程式設計語言
+Rust
+安裝
+學習
+遊樂場
+工具
+治理
+社群
+網誌
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+政策
+此頁面列出所有 Rust 的政策。
+行為準則
+授權條款
+商標政策與媒體指南
+安全資訊揭露
+隱私權注意事項
+找不到您要找的內容嗎？有任何問題嗎？請聯絡我們！
+聯絡 Rust Leadership Council
+取得協助！
+技術文件
+Rust Forge（貢獻者文件）
+在使用者論壇提問
+語言
+English (en-US)
+Español (es)
+Français (fr)
+Italiano (it)
+日本語 (ja)
+Português (pt-BR)
+Русский (ru)
+Türkçe (tr)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+條款和政策
+行為準則
+授權條款
+商標政策與媒體指南
+安全問題揭露
+隱私權注意事項
+政策總覽
+社群媒體
+由 Rust 團隊維護，發現錯字了嗎？請在此提交修復！
+想查看舊版網站嗎？
